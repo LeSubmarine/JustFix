@@ -26,5 +26,20 @@ namespace JustFixIt
         {
             this.InitializeComponent();
         }
+
+        private void BrugerButton_Click(object sender, RoutedEventArgs e)
+        {
+            frame.Navigate(typeof(Bruger));
+        }
+
+        private void MekanikerButton_Click(object sender, RoutedEventArgs e)
+        {
+            frame.Navigate(typeof(Mekaniker));
+        }
+
+        private void AdminButton_Click(object sender, RoutedEventArgs e)
+        {
+            frame.Navigate(typeof(Admin));
+        }
     }
 }

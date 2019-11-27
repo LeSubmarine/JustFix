@@ -19,13 +19,32 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <Viewbox>
-            <Button Background="Azure" Content="Bruger" />
+            <Button
+                x:Name="BrugerButton"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                Background="Azure"
+                Click="BrugerButton_Click"
+                Content="Bruger" />
         </Viewbox>
         <Viewbox Grid.Column="1">
-            <Button Background="Azure" Content="Mekaniker" />
+            <Button
+                x:Name="MekanikerButton"
+                Background="Azure"
+                Click="MekanikerButton_Click"
+                Content="Mekaniker" />
         </Viewbox>
         <Viewbox Grid.Column="2">
-            <Button Background="Azure" Content="Admin" />
+            <Button
+                x:Name="AdminButton"
+                Background="Azure"
+                Click="AdminButton_Click"
+                Content="Admin" />
         </Viewbox>
+        <Frame
+            x:Name="frame"
+            Grid.Row="1"
+            Grid.ColumnSpan="3"
+            Padding="10" />
     </Grid>
 </Page>
