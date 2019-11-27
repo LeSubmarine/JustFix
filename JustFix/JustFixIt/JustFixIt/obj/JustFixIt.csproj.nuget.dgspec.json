@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\henri\\Desktop\\JustFix\\JustFixIt\\JustFixIt\\JustFixIt.csproj": {}
+    "C:\\Users\\henri\\Documents\\GitHub\\JustFix\\JustFix\\JustFixIt\\JustFixIt\\JustFixIt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\henri\\Desktop\\JustFix\\JustFixIt\\JustFixIt\\JustFixIt.csproj": {
+    "C:\\Users\\henri\\Documents\\GitHub\\JustFix\\JustFix\\JustFixIt\\JustFixIt\\JustFixIt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\henri\\Desktop\\JustFix\\JustFixIt\\JustFixIt\\JustFixIt.csproj",
+        "projectUniqueName": "C:\\Users\\henri\\Documents\\GitHub\\JustFix\\JustFix\\JustFixIt\\JustFixIt\\JustFixIt.csproj",
         "projectName": "JustFixIt",
-        "projectPath": "C:\\Users\\henri\\Desktop\\JustFix\\JustFixIt\\JustFixIt\\JustFixIt.csproj",
+        "projectPath": "C:\\Users\\henri\\Documents\\GitHub\\JustFix\\JustFix\\JustFixIt\\JustFixIt\\JustFixIt.csproj",
         "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\henri\\Desktop\\JustFix\\JustFixIt\\JustFixIt\\obj\\",
+        "outputPath": "C:\\Users\\henri\\Documents\\GitHub\\JustFix\\JustFix\\JustFixIt\\JustFixIt\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
