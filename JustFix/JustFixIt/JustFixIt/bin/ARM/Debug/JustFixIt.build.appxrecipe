@@ -70,8 +70,17 @@
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\Admin.xbf">
+      <PackagePath>Admin.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\Bruger.xbf">
+      <PackagePath>Bruger.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\Mekaniker.xbf">
+      <PackagePath>Mekaniker.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
