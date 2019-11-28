@@ -8,5 +8,6 @@ namespace JustFixIt.Model
 {
     class CustomerUser
     {
+
     }
 }
