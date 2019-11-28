@@ -5,6 +5,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
       <RootProperty Name="Content" />
+      <RootProperty Name="DataContext" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
@@ -20,7 +21,8 @@
       <RootMethod Name="SetColumnSpan" />
     </RootType>
     <RootType FullName="JustFixIt.Admin" />
-    <RootType FullName="JustFixIt.Bruger" />
+    <RootType FullName="JustFixIt.ViewModel.CustomerViewModel" />
+    <RootType FullName="JustFixIt.Customer" />
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
     </RootType>
@@ -41,6 +43,6 @@
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="JustFixIt.MainPage" />
-    <RootType FullName="JustFixIt.Mekaniker" />
+    <RootType FullName="JustFixIt.Mechanic" />
   </Roots.RootTypes>
 </Roots>

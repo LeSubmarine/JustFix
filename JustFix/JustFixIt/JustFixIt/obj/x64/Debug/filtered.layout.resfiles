@@ -10,6 +10,6 @@ App.xbf
 JustFixIt.xr.xml
 MainPage.xbf
 View\Admin.xbf
-View\Bruger.xbf
-View\Mekaniker.xbf
+View\Customer.xbf
+View\Mechanic.xbf
 Properties\Default.rd.xml

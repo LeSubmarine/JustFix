@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.Storage;
 using Windows.UI.Popups;
+using JustFixIt.Model;
 using Newtonsoft.Json;
 
 namespace NoteMVVM
@@ -15,17 +16,17 @@ namespace NoteMVVM
     {
         private static string jsonFileName = "Notes.json";
 
-        public static async void SaveNotesAsJsonAsync(ObservableCollection<NoteModel> notes)
+        public static async void SaveNotesAsJsonAsync(ObservableCollection<User> notes)
         {
             string notesJsonString = JsonConvert.SerializeObject(notes);
             SerializeNotesFileAsync(notesJsonString, jsonFileName);
         }
 
-        public static async Task<List<NoteModel>> LoadNotesFromJsonAsync()
+        public static async Task<List<User>> LoadNotesFromJsonAsync()
         {
             string notesJsonString = await DeserializeNotesFileAsync(jsonFileName);
             if (notesJsonString != null)
-                return (List<NoteModel>)JsonConvert.DeserializeObject(notesJsonString, typeof(List<NoteModel>));
+                return (List<User>)JsonConvert.DeserializeObject(notesJsonString, typeof(List<User>));
             return null;
         }
 
