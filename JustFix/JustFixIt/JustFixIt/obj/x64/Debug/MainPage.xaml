@@ -8,7 +8,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     mc:Ignorable="d">
 
-    <Grid>
+    <Grid x:ConnectionId='2' x:Name="MainGrid">
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="6*" />
@@ -19,7 +19,7 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <Viewbox>
-            <Button x:ConnectionId='5'
+            <Button x:ConnectionId='6'
                 x:Name="BrugerButton"
                 HorizontalAlignment="Stretch"
                 VerticalAlignment="Stretch"
@@ -28,21 +28,21 @@
                 Content="Bruger" />
         </Viewbox>
         <Viewbox Grid.Column="1">
-            <Button x:ConnectionId='4'
+            <Button x:ConnectionId='5'
                 x:Name="MekanikerButton"
                 Background="Azure"
                                              
                 Content="Mekaniker" />
         </Viewbox>
         <Viewbox Grid.Column="2">
-            <Button x:ConnectionId='3'
+            <Button x:ConnectionId='4'
                 x:Name="AdminButton"
                 Background="Azure"
                                          
                 Content="Admin" />
         </Viewbox>
-        <Frame x:ConnectionId='2'
-            x:Name="frame"
+        <Frame x:ConnectionId='3'
+            x:Name="MainPageFrame"
             Grid.Row="1"
             Grid.ColumnSpan="3"
             Padding="10" />

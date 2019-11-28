@@ -8,5 +8,10 @@ namespace JustFixIt.ViewModel
 {
     class MainViewModel
     {
+        public MainViewModel()
+        {
+
+        }
+
     }
 }

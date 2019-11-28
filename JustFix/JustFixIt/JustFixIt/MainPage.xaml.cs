@@ -29,17 +29,17 @@ namespace JustFixIt
 
         private void BrugerButton_Click(object sender, RoutedEventArgs e)
         {
-            frame.Navigate(typeof(Customer));
+            MainPageFrame.Navigate(typeof(Customer));
         }
 
         private void MekanikerButton_Click(object sender, RoutedEventArgs e)
         {
-            frame.Navigate(typeof(Mechanic));
+            MainPageFrame.Navigate(typeof(Mechanic));
         }
 
         private void AdminButton_Click(object sender, RoutedEventArgs e)
         {
-            frame.Navigate(typeof(Admin));
+            MainPageFrame.Navigate(typeof(Admin));
         }
     }
 }

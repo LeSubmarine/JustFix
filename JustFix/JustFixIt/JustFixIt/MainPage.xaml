@@ -8,7 +8,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     mc:Ignorable="d">
 
-    <Grid>
+    <Grid x:Name="MainGrid">
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="6*" />
@@ -42,7 +42,7 @@
                 Content="Admin" />
         </Viewbox>
         <Frame
-            x:Name="frame"
+            x:Name="MainPageFrame"
             Grid.Row="1"
             Grid.ColumnSpan="3"
             Padding="10" />
