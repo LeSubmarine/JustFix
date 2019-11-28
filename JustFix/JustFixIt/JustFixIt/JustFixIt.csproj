@@ -120,6 +120,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\AdminUser.cs" />
+    <Compile Include="Model\CustomerUser.cs" />
     <Compile Include="Model\PersistencyService.cs" />
     <Compile Include="Model\RelayCommand.cs" />
     <Compile Include="Model\User.cs" />
