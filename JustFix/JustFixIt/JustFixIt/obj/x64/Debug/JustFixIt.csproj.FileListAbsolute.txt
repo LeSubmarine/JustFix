@@ -58,3 +58,28 @@ C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debu
 C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Customer.g.cs
 C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Customer.xaml
 C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Customer.xbf
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\JustFixIt.csprojAssemblyReference.cache
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\App.g.i.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\App.g.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Admin.g.i.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Admin.g.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Customer.g.i.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Customer.g.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\MainPage.g.i.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\MainPage.g.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Mechanic.g.i.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Mechanic.g.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\App.xaml
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Admin.xaml
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Customer.xaml
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\MainPage.xaml
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Mechanic.xaml
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\App.xbf
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Admin.xbf
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Customer.xbf
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\MainPage.xbf
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Mechanic.xbf
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\JustFixIt.exe
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\JustFixIt.pdb
