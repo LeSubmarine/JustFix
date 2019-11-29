@@ -8,7 +8,7 @@ namespace JustFixIt.Model
 {
     class AdminUser : User
     {
-        public AdminUser()
+        public AdminUser(string id, string userName, string password, string name) : base(id,userName,password,name)
         {
             PersonType = PersonTypes.Admin;
         }

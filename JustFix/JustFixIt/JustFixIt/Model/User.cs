@@ -36,10 +36,15 @@ namespace JustFixIt.Model
 
 
         #region Constructor
-        public User(string Id, string UserName, string Password, string Name, PersonTypes personType)
+        public User(string id, string userName, string password, string name)
         {
-
+            Id = id;
+            UserName = userName;
+            Password = password;
+            Name = name;
         } 
         #endregion
+        
+
     }
 }
