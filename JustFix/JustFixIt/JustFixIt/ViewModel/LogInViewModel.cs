@@ -8,19 +8,19 @@ using NoteMVVM;
 
 namespace JustFixIt.ViewModel
 {
-    class LogIn
+    class LogInViewModel
     {
         #region Properties
         public string LogInName { get; set; }
         public string Password { get; set; }
-        public ICommand LoginCommand { get; set; }
+        public ICommand LogInCommand { get; set; }
         #endregion
 
 
         #region Constructor
-        public LogIn()
+        public LogInViewModel()
         {
-            LoginCommand = new RelayCommand(LogUserIn);
+            LogInCommand = new RelayCommand(LogUserIn);
         }
         #endregion
 
