@@ -339,3 +339,12 @@ ASALocalRun/
 # BeatPulse healthcheck temp database
 healthchecksdb
 JustFix/JustFixIt/JustFixIt/obj/x64/Debug/View/Mechanic.g.i.cs
+JustFix/JustFixIt/.vs/JustFixIt/v16/.suo
+JustFix/JustFixIt/JustFixIt/obj/JustFixIt.csproj.nuget.cache
+JustFix/JustFixIt/JustFixIt/obj/JustFixIt.csproj.nuget.dgspec.json
+JustFix/JustFixIt/JustFixIt/obj/JustFixIt.csproj.nuget.g.props
+JustFix/JustFixIt/JustFixIt/obj/project.assets.json
+JustFix/JustFixIt/JustFixIt/obj/x64/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+JustFix/JustFixIt/JustFixIt/obj/x64/Debug/JustFixIt.csproj.FileListAbsolute.txt
+JustFix/JustFixIt/JustFixIt/obj/x64/Debug/JustFixIt.csprojAssemblyReference.cache
+JustFix/JustFixIt/JustFixIt/obj/x64/Debug/XamlSaveStateFile.xml

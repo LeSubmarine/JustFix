@@ -8,5 +8,34 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     mc:Ignorable="d">
 
-    <Grid />
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="6*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Viewbox Grid.ColumnSpan="2">
+            <StackPanel Orientation="Horizontal">
+
+                <StackPanel>
+                    <TextBlock Text="lmao" />
+                    <TextBlock Text="lmao" />
+                    <TextBlock Text="lmao" />
+                    <TextBlock Text="lmao" />
+                    <TextBlock Text="lmao" />
+                </StackPanel>
+                <StackPanel>
+                    <TextBox Text="Lmmaooo" />
+                    <TextBox Text="Lmmaooo" />
+                    <TextBox Text="Lmmaooo" />
+                    <TextBox Text="Lmmaooo" />
+                    <TextBox Text="Lmmaooo" />
+                </StackPanel>
+
+            </StackPanel>
+        </Viewbox>
+    </Grid>
 </Page>
