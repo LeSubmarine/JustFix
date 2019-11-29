@@ -11,6 +11,10 @@
     <Page.DataContext>
         <viewModel:CustomerViewModel />
     </Page.DataContext>
-    <Grid Background="Blue" />
+    <Grid Background="Blue">
+        <Viewbox>
+            <Button x:ConnectionId='2' Content="BACK"                      />
+        </Viewbox>
+    </Grid>
 </Page>
 

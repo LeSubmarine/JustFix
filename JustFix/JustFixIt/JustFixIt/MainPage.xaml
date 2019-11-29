@@ -8,43 +8,5 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     mc:Ignorable="d">
 
-    <Grid x:Name="MainGrid">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="6*" />
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
-        <Viewbox>
-            <Button
-                x:Name="BrugerButton"
-                HorizontalAlignment="Stretch"
-                VerticalAlignment="Stretch"
-                Background="Azure"
-                Click="BrugerButton_Click"
-                Content="Bruger" />
-        </Viewbox>
-        <Viewbox Grid.Column="1">
-            <Button
-                x:Name="MekanikerButton"
-                Background="Azure"
-                Click="MekanikerButton_Click"
-                Content="Mekaniker" />
-        </Viewbox>
-        <Viewbox Grid.Column="2">
-            <Button
-                x:Name="AdminButton"
-                Background="Azure"
-                Click="AdminButton_Click"
-                Content="Admin" />
-        </Viewbox>
-        <Frame
-            x:Name="MainPageFrame"
-            Grid.Row="1"
-            Grid.ColumnSpan="3"
-            Padding="10" />
-    </Grid>
+    <Grid x:Name="MainGrid" />
 </Page>

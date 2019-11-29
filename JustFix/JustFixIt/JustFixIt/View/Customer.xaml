@@ -11,9 +11,5 @@
     <Page.DataContext>
         <viewModel:CustomerViewModel />
     </Page.DataContext>
-    <Grid Background="Blue">
-        <Viewbox>
-            <Button Content="BACK" />
-        </Viewbox>
-    </Grid>
+    <Grid Background="Blue" />
 </Page>
