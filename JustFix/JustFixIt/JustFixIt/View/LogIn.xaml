@@ -5,12 +5,33 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="using:JustFixIt.View"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModel="using:JustFixIt.ViewModel"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     mc:Ignorable="d">
+    <Page.DataContext>
+        <viewModel:LogInViewModel />
+    </Page.DataContext>
 
     <Grid>
-        <Viewbox>
-            <Button Content="Log in" />
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="3*" />
+        </Grid.RowDefinitions>
+        <Viewbox Grid.Row="2">
+            <StackPanel Orientation="Horizontal">
+                <Button
+                    x:Name="NewAccButton"
+                    Margin="10"
+                    Click="NewAccButton_Click"
+                    Content="New Account" />
+                <Button
+                    x:Name="LogInButton"
+                    Margin="10"
+                    Click="LogInButton_Click"
+                    Command="{Binding LogInCommand}"
+                    Content="Log in" />
+            </StackPanel>
         </Viewbox>
 
     </Grid>

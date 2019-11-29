@@ -11,13 +11,14 @@ namespace JustFixIt.ViewModel
     {
 
         #region Properties
-        static public List<User> AllUsers { get; set; }
-        static public User ActiveUser { get; set; }
+        public static List<User> AllUsers { get; set; }
+        public static User ActiveUser { get; set; }
+        public static System.Type NavigationPage { get; set; }
         #endregion
 
         public MainViewModel()
         {
-
+            NavigationPage = typeof(MainPage);
         }
 
     }

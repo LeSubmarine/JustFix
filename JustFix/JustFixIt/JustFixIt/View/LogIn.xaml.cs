@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using JustFixIt.ViewModel;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -25,6 +26,16 @@ namespace JustFixIt.View
         public LogIn()
         {
             this.InitializeComponent();
+        }
+
+        private void NewAccButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(CreateAccount));
+        }
+
+        private void LogInButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(MainViewModel.NavigationPage);
         }
     }
 }
