@@ -11,7 +11,8 @@ namespace JustFixIt.ViewModel
     {
 
         #region Properties
-        public List<User> AllUsers { get; set; }
+        static public List<User> AllUsers { get; set; }
+        static public User ActiveUser { get; set; }
         #endregion
 
         public MainViewModel()
