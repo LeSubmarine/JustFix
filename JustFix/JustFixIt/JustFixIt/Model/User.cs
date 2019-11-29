@@ -36,7 +36,7 @@ namespace JustFixIt.Model
 
 
         #region Constructor
-        public User()
+        public User(string Id, string UserName, string Password, string Name, PersonTypes personType)
         {
 
         } 
