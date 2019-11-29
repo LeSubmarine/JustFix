@@ -121,11 +121,13 @@
     </Compile>
     <Compile Include="Model\AdminUser.cs" />
     <Compile Include="Model\CustomerUser.cs" />
+    <Compile Include="Model\NavigationSupport.cs" />
     <Compile Include="Model\PersistencyService.cs" />
     <Compile Include="Model\RelayCommand.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="ViewModel\AdminViewModel.cs" />
     <Compile Include="ViewModel\CustomerViewModel.cs" />
+    <Compile Include="ViewModel\LogIn.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\MechanicViewModel.cs" />
     <Compile Include="View\Admin.xaml.cs">
