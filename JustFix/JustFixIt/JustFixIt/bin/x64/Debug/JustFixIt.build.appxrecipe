@@ -37,6 +37,27 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\78055709_555067945055773_2867606121437200384_n.jpg">
+      <PackagePath>DesignNotes\78055709_555067945055773_2867606121437200384_n.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\78244538_433874070878883_4335748581706170368_n.jpg">
+      <PackagePath>DesignNotes\78244538_433874070878883_4335748581706170368_n.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\78247887_2748896485160661_6457030996465287168_n.jpg">
+      <PackagePath>DesignNotes\78247887_2748896485160661_6457030996465287168_n.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\78383275_2527558967567567_6213954333050929152_n.jpg">
+      <PackagePath>DesignNotes\78383275_2527558967567567_6213954333050929152_n.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\78424941_554618788654566_2145930639365373952_n.jpg">
+      <PackagePath>DesignNotes\78424941_554618788654566_2145930639365373952_n.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\79181657_746786829155283_8500388672816807936_n.jpg">
+      <PackagePath>DesignNotes\79181657_746786829155283_8500388672816807936_n.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\79281021_447899962531564_3108550410898505728_n.jpg">
+      <PackagePath>DesignNotes\79281021_447899962531564_3108550410898505728_n.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
@@ -76,8 +97,14 @@
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Admin.xbf">
       <PackagePath>View\Admin.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\CreateAccount.xbf">
+      <PackagePath>View\CreateAccount.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Customer.xbf">
       <PackagePath>View\Customer.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\LogIn.xbf">
+      <PackagePath>View\LogIn.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>

@@ -8,5 +8,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     mc:Ignorable="d">
 
-    <Grid Background="Purple" />
+    <Grid Background="Purple">
+        <Viewbox>
+            <Button x:Name="Back" Click="Back_Click"></Button>
+        </Viewbox>
+    </Grid>
 </Page>

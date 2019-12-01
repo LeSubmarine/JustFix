@@ -28,5 +28,6 @@ namespace JustFixIt
             this.InitializeComponent();
             TheFrame.Navigate(typeof(LogIn));
         }
+
     }
 }

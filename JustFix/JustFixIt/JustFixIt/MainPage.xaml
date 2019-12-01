@@ -8,9 +8,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     mc:Ignorable="d">
 
-    <Grid x:Name="MainGrid">
-        <Viewbox>
-            <Frame x:Name="TheFrame" />
-        </Viewbox>
+    <Grid x:Name="MainGrid" Background="DarkGreen">
+        <Frame x:Name="TheFrame" />
     </Grid>
 </Page>

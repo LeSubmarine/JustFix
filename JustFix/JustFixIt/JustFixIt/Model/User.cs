@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using JustFixIt.View;
 
 namespace JustFixIt.Model
 {
@@ -42,9 +43,24 @@ namespace JustFixIt.Model
             UserName = userName;
             Password = password;
             Name = name;
-        } 
+        }
         #endregion
-        
+
+
+        public System.Type PageNavigation()
+        {
+            switch (PersonType)
+            {
+                case PersonTypes.Admin:
+                    return typeof(Admin);
+                case PersonTypes.Customer:
+                    return typeof(Customer);
+                case PersonTypes.Mechanic:
+                    return typeof(Mechanic);
+                default:
+                    return typeof(LogIn);
+            }
+        }
 
     }
 }
