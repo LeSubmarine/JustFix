@@ -8,7 +8,7 @@ namespace JustFixIt.Model
 {
     class MechanicUser : User
     {
-        public MechanicUser(string id, string userName, string password, string name) : base(id, userName, password, name)
+        public MechanicUser(string id, string userName, string password, string name, string number, string email) : base(id, userName, password, name, number, email)
         {
             PersonType = PersonTypes.Mechanic;
         }

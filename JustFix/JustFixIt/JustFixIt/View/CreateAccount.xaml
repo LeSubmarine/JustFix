@@ -5,9 +5,12 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="using:JustFixIt.View"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModel="using:JustFixIt.ViewModel"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     mc:Ignorable="d">
-
+    <Page.DataContext>
+        <viewModel:CreateAccountViewModel />
+    </Page.DataContext>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
@@ -16,7 +19,7 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
+            <RowDefinition Height="2*" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
@@ -58,31 +61,31 @@
             Grid.Row="0"
             Grid.Column="2"
             HorizontalAlignment="Left">
-            <TextBox Text="{Binding Name}" />
+            <TextBox Width="200" Text="{Binding Name}" />
         </Viewbox>
         <Viewbox
             Grid.Row="1"
             Grid.Column="2"
             HorizontalAlignment="Left">
-            <TextBox Text="{Binding Login}" />
+            <TextBox Width="200" Text="{Binding Login}" />
         </Viewbox>
         <Viewbox
             Grid.Row="2"
             Grid.Column="2"
             HorizontalAlignment="Left">
-            <TextBox Text="{Binding Password}" />
+            <TextBox Width="200" Text="{Binding Password}" />
         </Viewbox>
         <Viewbox
             Grid.Row="3"
             Grid.Column="2"
             HorizontalAlignment="Left">
-            <TextBox Text="{Binding Email}" />
+            <TextBox Width="200" Text="{Binding Email}" />
         </Viewbox>
         <Viewbox
             Grid.Row="4"
             Grid.Column="2"
             HorizontalAlignment="Left">
-            <TextBox Text="{Binding Number}" />
+            <TextBox Width="200" Text="{Binding Number}" />
         </Viewbox>
         <Viewbox Grid.Row="6" Grid.ColumnSpan="3">
             <StackPanel Padding="10" Orientation="Horizontal">
