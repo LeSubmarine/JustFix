@@ -18,24 +18,41 @@
             <RowDefinition Height="2*" />
             <RowDefinition Height="3*" />
         </Grid.RowDefinitions>
-        <Viewbox Grid.Row="0">
-            <TextBox x:Name="LogInName" Text="{Binding LogInName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Viewbox Grid.Row="0" Grid.Column="1">
+            <TextBox
+                x:Name="LogInName"
+                Width="140"
+                Margin="2"
+                HorizontalAlignment="Stretch"
+                Text="{Binding LogInName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                TextAlignment="Center" />
         </Viewbox>
-        <Viewbox Grid.Row="1">
-            <TextBox x:Name="Password" Text="{Binding Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        <Viewbox Grid.Row="1" Grid.Column="1">
+            <TextBox
+                x:Name="Password"
+                Width="140"
+                Margin="2"
+                HorizontalAlignment="Stretch"
+                Text="{Binding Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                TextAlignment="Center" />
         </Viewbox>
-        <Viewbox Grid.Row="2">
-            <StackPanel Padding="10" Orientation="Horizontal">
+        <Viewbox Grid.Row="2" Grid.ColumnSpan="3">
+            <StackPanel Padding="5" Orientation="Horizontal">
                 <Button
                     x:Name="NewAccButton"
                     Width="110"
-                    Margin="0,0,10,0"
+                    Margin="10,0,10,0"
                     Click="NewAccButton_Click"
                     Content="New Account" />
                 <Button
                     x:Name="LogInButton"
                     Width="110"
-                    Margin="10,0,0,0"
+                    Margin="10,0,10,0"
                     Click="LogInButton_Click"
                     Content="Log in" />
             </StackPanel>

@@ -5,12 +5,18 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="using:JustFixIt"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModel="using:JustFixIt.ViewModel"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     mc:Ignorable="d">
-
+    <Page.DataContext>
+        <viewModel:AdminViewModel />
+    </Page.DataContext>
     <Grid Background="DarkRed">
         <Viewbox>
-            <Button x:Name="Back" Click="Back_Click"></Button>
+            <ListView ItemsSource="{Binding Users}" />
+        </Viewbox>
+        <Viewbox>
+            <Button x:Name="Back" Click="Back_Click" />
         </Viewbox>
     </Grid>
 </Page>

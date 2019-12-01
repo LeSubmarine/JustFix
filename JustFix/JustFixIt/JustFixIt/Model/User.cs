@@ -51,6 +51,13 @@ namespace JustFixIt.Model
         #endregion
 
 
+        #region Methods
+
+        public override string ToString()
+        {
+            return $"{nameof(Id)}: {Id}\n{nameof(UserName)}: {UserName}\n{nameof(Password)}: {Password}\n{nameof(Name)}: {Name}\n{nameof(Number)}: {Number}\n{nameof(Email)}: {Email}\n{nameof(PersonType)}: {PersonType}\n\n";
+        }
+
         public System.Type PageNavigation()
         {
             switch (PersonType)
@@ -64,7 +71,8 @@ namespace JustFixIt.Model
                 default:
                     return typeof(LogIn);
             }
-        }
+        } 
+        #endregion
 
     }
 }

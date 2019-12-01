@@ -27,22 +27,19 @@ namespace JustFixIt.ViewModel
         {
             LogInName = "Log in";
             Password = "Password";
-            MainViewModel.AllUsers.Add(new AdminUser("12","Admin","Admin","sss"));
-            MainViewModel.AllUsers.Add(new CustomerUser("13","Customer","Customer","ss"));
-            MainViewModel.AllUsers.Add(new MechanicUser("14","Mechanic","Mechanic","sds"));
         }
         #endregion
 
 
         #region Methods
-        public static void LogUserIn(string LogInName, string Password)
+        public static void LogUserIn(string logInName, string password)
         {
             MainViewModel.NavigationPage = typeof(LogIn);
             for (int i = 0; i < MainViewModel.AllUsers.Count; i++)
             {
-                if (MainViewModel.AllUsers[i].UserName== LogInName)
+                if (MainViewModel.AllUsers[i].UserName == logInName)
                 {
-                    if (MainViewModel.AllUsers[i].Password == Password)
+                    if (MainViewModel.AllUsers[i].Password == password)
                     {
                         MainViewModel.ActiveUser = MainViewModel.AllUsers[i];
                         MainViewModel.NavigationPage = MainViewModel.AllUsers[i].PageNavigation();
@@ -52,6 +49,7 @@ namespace JustFixIt.ViewModel
             }
         }
         #endregion
+
 
         #region Property change support
         public event PropertyChangedEventHandler PropertyChanged;

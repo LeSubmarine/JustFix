@@ -95,9 +95,25 @@ namespace JustFixIt.ViewModel
         #region Methods
         public void CreateAccount()
         {
-            //Slet forrige felter
-            string id = "15"; //Id skal ikke bare være 15 lmao
-            MainViewModel.AllUsers.Add(new CustomerUser(id, Login, Password, Name, Number, Email));
+            bool occupied = false;
+            for (int i = 0; i < MainViewModel.AllUsers.Count; i++)
+            {
+                if (Login == MainViewModel.AllUsers[i].UserName)
+                {
+                    occupied = true;
+                }
+            }
+
+            if (!(occupied))
+            {
+                string id = "15"; //Id skal ikke bare være 15 lmao
+                MainViewModel.AllUsers.Add(new CustomerUser(id, Login, Password, Name, Number, Email));
+                Name = "";
+                Login = "";
+                Password = "";
+                Email = "";
+                Number = "";
+            }
         } 
         #endregion
 
