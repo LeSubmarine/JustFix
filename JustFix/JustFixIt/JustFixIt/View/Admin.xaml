@@ -11,12 +11,32 @@
     <Page.DataContext>
         <viewModel:AdminViewModel />
     </Page.DataContext>
-    <Grid Background="DarkRed">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
         <Viewbox>
-            <ListView ItemsSource="{Binding Users}" />
+            <ListView
+                x:Name="UserList"
+                Height="800"
+                ItemsSource="{Binding Users}"
+                SelectedIndex="{Binding SelectedUser, UpdateSourceTrigger=PropertyChanged}" />
         </Viewbox>
-        <Viewbox>
-            <Button x:Name="Back" Click="Back_Click" />
+        <Viewbox Grid.Row="1">
+            <Button
+                x:Name="Back"
+                Width="100"
+                Margin="5"
+                Click="Back_Click"
+                Content="Log out" />
+        </Viewbox>
+        <Viewbox Grid.Column="1">
+            <TextBox Text="{Binding PickedUser, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
         </Viewbox>
     </Grid>
 </Page>
