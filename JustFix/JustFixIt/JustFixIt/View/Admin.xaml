@@ -25,7 +25,7 @@
                 x:Name="UserList"
                 Height="800"
                 ItemsSource="{Binding Users}"
-                SelectedIndex="{Binding SelectedUser, UpdateSourceTrigger=PropertyChanged}" />
+                SelectedItem="{Binding SelectedUser, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
         </Viewbox>
         <Viewbox Grid.Row="1">
             <Button
@@ -36,7 +36,7 @@
                 Content="Log out" />
         </Viewbox>
         <Viewbox Grid.Column="1">
-            <TextBox Text="{Binding PickedUser, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+            <TextBlock Text="{Binding SelectedUser, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
         </Viewbox>
     </Grid>
 </Page>

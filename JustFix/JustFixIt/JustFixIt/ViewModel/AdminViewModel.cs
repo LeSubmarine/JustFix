@@ -15,7 +15,7 @@ namespace JustFixIt.ViewModel
     {
         #region Instance field
 
-        private int _selectedUser;
+        private User _selectedUser;
         private string _pickedUser;
 
         #endregion
@@ -45,14 +45,13 @@ namespace JustFixIt.ViewModel
             }
         }
 
-        public int SelectedUser
+        public User SelectedUser
         {
             get => _selectedUser;
             set
             {
                 _selectedUser = value;
                 OnPropertyChanged();
-                PickedUser = MainViewModel.AllUsers[SelectedUser].ToString();
             }
         }
 

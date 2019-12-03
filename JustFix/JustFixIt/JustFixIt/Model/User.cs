@@ -48,6 +48,11 @@ namespace JustFixIt.Model
             Email = email;
             Number = number;
         }
+
+        public User()
+        {
+            
+        }
         #endregion
 
 

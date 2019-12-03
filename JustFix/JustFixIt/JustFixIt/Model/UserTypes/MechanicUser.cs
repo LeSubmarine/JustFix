@@ -12,5 +12,10 @@ namespace JustFixIt.Model
         {
             PersonType = PersonTypes.Mechanic;
         }
+
+        public MechanicUser()
+        {
+            
+        }
     }
 }

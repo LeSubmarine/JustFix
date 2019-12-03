@@ -12,5 +12,10 @@ namespace JustFixIt.Model
         {
             PersonType = PersonTypes.Customer;
         }
+
+        public CustomerUser()
+        {
+            
+        }
     }
 }

@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
-    <RootPropertyPathName Name="PickedUser" />
-    <RootPropertyPathName Name="Users" />
     <RootPropertyPathName Name="SelectedUser" />
+    <RootPropertyPathName Name="Users" />
     <RootPropertyPathName Name="CreateAccountCommand" />
     <RootPropertyPathName Name="Number" />
     <RootPropertyPathName Name="Email" />
@@ -43,12 +42,8 @@
       <RootProperty Name="Child" />
       <RootProperty Name="HorizontalAlignment" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="TextAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="UpdateSourceTrigger" />
@@ -64,7 +59,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="Height" />
       <RootProperty Name="ItemsSource" />
-      <RootProperty Name="SelectedIndex" />
+      <RootProperty Name="SelectedItem" />
     </RootType>
     <RootType FullName="JustFixIt.Admin" />
     <RootType FullName="JustFixIt.ViewModel.CreateAccountViewModel" />
@@ -73,8 +68,12 @@
       <RootProperty Name="Orientation" />
       <RootProperty Name="Children" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Width" />
       <RootProperty Name="Text" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="TextAlignment" />
     </RootType>
     <RootType FullName="JustFixIt.View.CreateAccount" />
     <RootType FullName="JustFixIt.ViewModel.CustomerViewModel" />

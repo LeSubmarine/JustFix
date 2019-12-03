@@ -104,16 +104,18 @@ namespace JustFixIt.ViewModel
 
             if (!(occupied))
             {
-                string id = "15"; //Id skal ikke bare være 15 lmao
+                string id = "42"; //Id skal ikke bare være 42 lmao
                 MainViewModel.AllUsers.Add(new CustomerUser(id, Login, Password, Name, Number, Email));
                 Name = "";
                 Login = "";
                 Password = "";
                 Email = "";
                 Number = "";
+                MainViewModel.Save();
             }
         } 
         #endregion
+
 
         #region PropertyChangeSupport
 
