@@ -18,18 +18,42 @@
             <RowDefinition Height="2*" />
             <RowDefinition Height="3*" />
         </Grid.RowDefinitions>
-        <Viewbox Grid.Row="2">
-            <StackPanel Orientation="Horizontal">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Viewbox Grid.Row="0" Grid.Column="1">
+            <TextBox
+                x:Name="LogInName"
+                Width="140"
+                Margin="2"
+                HorizontalAlignment="Stretch"
+                Text="{Binding LogInName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                TextAlignment="Center" />
+        </Viewbox>
+        <Viewbox Grid.Row="1" Grid.Column="1">
+            <TextBox
+                x:Name="Password"
+                Width="140"
+                Margin="2"
+                HorizontalAlignment="Stretch"
+                Text="{Binding Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                TextAlignment="Center" />
+        </Viewbox>
+        <Viewbox Grid.Row="2" Grid.ColumnSpan="3">
+            <StackPanel Padding="5" Orientation="Horizontal">
                 <Button
                     x:Name="NewAccButton"
-                    Margin="10"
+                    Width="110"
+                    Margin="10,0,10,0"
                     Click="NewAccButton_Click"
                     Content="New Account" />
                 <Button
                     x:Name="LogInButton"
-                    Margin="10"
+                    Width="110"
+                    Margin="10,0,10,0"
                     Click="LogInButton_Click"
-                    Command="{Binding LogInCommand}"
                     Content="Log in" />
             </StackPanel>
         </Viewbox>

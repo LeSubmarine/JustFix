@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-29T08:29:34.345</Modified>
+      <Modified>2019-12-02T11:31:22.331</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\JustFixIt.exe">
       <PackagePath>entrypoint\JustFixIt.exe</PackagePath>
-      <Modified>2019-11-29T08:29:32.588</Modified>
+      <Modified>2019-12-02T11:31:21.534</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\henri\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -49,6 +49,34 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T16:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\78055709_555067945055773_2867606121437200384_n.jpg">
+      <PackagePath>DesignNotes\78055709_555067945055773_2867606121437200384_n.jpg</PackagePath>
+      <Modified>2019-11-29T08:44:01.078</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\78244538_433874070878883_4335748581706170368_n.jpg">
+      <PackagePath>DesignNotes\78244538_433874070878883_4335748581706170368_n.jpg</PackagePath>
+      <Modified>2019-11-29T08:44:01.056</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\78247887_2748896485160661_6457030996465287168_n.jpg">
+      <PackagePath>DesignNotes\78247887_2748896485160661_6457030996465287168_n.jpg</PackagePath>
+      <Modified>2019-11-29T08:44:01.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\78383275_2527558967567567_6213954333050929152_n.jpg">
+      <PackagePath>DesignNotes\78383275_2527558967567567_6213954333050929152_n.jpg</PackagePath>
+      <Modified>2019-11-29T08:44:01.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\78424941_554618788654566_2145930639365373952_n.jpg">
+      <PackagePath>DesignNotes\78424941_554618788654566_2145930639365373952_n.jpg</PackagePath>
+      <Modified>2019-11-29T08:44:01.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\79181657_746786829155283_8500388672816807936_n.jpg">
+      <PackagePath>DesignNotes\79181657_746786829155283_8500388672816807936_n.jpg</PackagePath>
+      <Modified>2019-11-29T08:44:01.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\79281021_447899962531564_3108550410898505728_n.jpg">
+      <PackagePath>DesignNotes\79281021_447899962531564_3108550410898505728_n.jpg</PackagePath>
+      <Modified>2019-11-29T08:44:01.089</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -90,27 +118,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\JustFixIt.xr.xml">
       <PackagePath>JustFixIt.xr.xml</PackagePath>
-      <Modified>2019-11-29T08:29:32.219</Modified>
+      <Modified>2019-12-02T11:31:21.141</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-11-29T08:29:32.285</Modified>
+      <Modified>2019-12-02T11:31:21.161</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Admin.xbf">
       <PackagePath>View\Admin.xbf</PackagePath>
-      <Modified>2019-11-29T08:29:32.286</Modified>
+      <Modified>2019-12-02T11:31:21.161</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\CreateAccount.xbf">
+      <PackagePath>View\CreateAccount.xbf</PackagePath>
+      <Modified>2019-12-02T11:31:21.162</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Customer.xbf">
       <PackagePath>View\Customer.xbf</PackagePath>
-      <Modified>2019-11-29T08:29:32.287</Modified>
+      <Modified>2019-12-02T11:31:21.162</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\LogIn.xbf">
+      <PackagePath>View\LogIn.xbf</PackagePath>
+      <Modified>2019-12-02T11:31:21.163</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-11-29T08:29:32.287</Modified>
+      <Modified>2019-12-02T11:31:21.163</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Mechanic.xbf">
       <PackagePath>View\Mechanic.xbf</PackagePath>
-      <Modified>2019-11-29T08:29:32.288</Modified>
+      <Modified>2019-12-02T11:31:21.164</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -118,11 +154,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-11-28T12:25:46.282</Modified>
+      <Modified>2019-12-02T10:29:56.881</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\Core\JustFixIt.exe">
       <PackagePath>JustFixIt.exe</PackagePath>
-      <Modified>2019-11-29T08:29:34.302</Modified>
+      <Modified>2019-12-02T11:31:22.322</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

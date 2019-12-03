@@ -119,12 +119,20 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Model\AdminUser.cs" />
-    <Compile Include="Model\CustomerUser.cs" />
+    <Compile Include="Model\Car.cs" />
+    <Compile Include="Model\TaskTypes\BrakeFluidChangeTask.cs" />
+    <Compile Include="Model\TaskTypes\FilterChangeTask.cs" />
+    <Compile Include="Model\TaskTypes\RemoveTiresTask.cs" />
+    <Compile Include="Model\UserTypes\AdminUser.cs" />
+    <Compile Include="Model\UserTypes\CustomerUser.cs" />
+    <Compile Include="Model\UserTypes\MechanicUser.cs" />
     <Compile Include="Model\PersistencyService.cs" />
     <Compile Include="Model\RelayCommand.cs" />
+    <Compile Include="Model\WorkTask.cs" />
     <Compile Include="Model\User.cs" />
+    <Compile Include="Properties\Annotations.cs" />
     <Compile Include="ViewModel\AdminViewModel.cs" />
+    <Compile Include="ViewModel\CreateAccountViewModel.cs" />
     <Compile Include="ViewModel\CustomerViewModel.cs" />
     <Compile Include="ViewModel\LogInViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />

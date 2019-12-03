@@ -5,8 +5,38 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="using:JustFixIt"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModel="using:JustFixIt.ViewModel"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     mc:Ignorable="d">
-
-    <Grid Background="DarkRed" />
+    <Page.DataContext>
+        <viewModel:AdminViewModel />
+    </Page.DataContext>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Viewbox>
+            <ListView
+                x:Name="UserList"
+                Height="800"
+                ItemsSource="{Binding Users}"
+                SelectedIndex="{Binding SelectedUser, UpdateSourceTrigger=PropertyChanged}" />
+        </Viewbox>
+        <Viewbox Grid.Row="1">
+            <Button
+                x:Name="Back"
+                Width="100"
+                Margin="5"
+                Click="Back_Click"
+                Content="Log out" />
+        </Viewbox>
+        <Viewbox Grid.Column="1">
+            <TextBox Text="{Binding PickedUser, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+        </Viewbox>
+    </Grid>
 </Page>

@@ -103,3 +103,5 @@ C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\
 C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\CreateAccount.xbf
 C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\LogIn.xbf
 C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\MainPage.xbf
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\CreateAccount.xbf
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\LogIn.xbf

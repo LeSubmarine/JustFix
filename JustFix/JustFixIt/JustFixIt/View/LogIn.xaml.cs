@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.ApplicationModel.Store;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -35,7 +36,16 @@ namespace JustFixIt.View
 
         private void LogInButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(MainViewModel.NavigationPage);
+            LogInViewModel.LogUserIn(this.LogInName.Text,this.Password.Text);
+            if (!(MainViewModel.NavigationPage == typeof(LogIn)))
+            {
+                this.Frame.Navigate(MainViewModel.NavigationPage);
+            }
+            else
+            {
+                this.LogInName.Text = "";
+                this.Password.Text = "";
+            }
         }
     }
 }

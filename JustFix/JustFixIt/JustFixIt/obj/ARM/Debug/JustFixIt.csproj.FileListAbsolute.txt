@@ -42,18 +42,99 @@ C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debu
 C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\ProjectArchitectures.txt
 C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\Admin.xbf
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\Bruger.xbf
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\Mekaniker.xbf
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\Admin.g.i.cs
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\Admin.g.cs
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\Bruger.g.i.cs
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\Bruger.g.cs
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\Mekaniker.g.i.cs
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\Mekaniker.g.cs
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\Admin.xaml
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\Bruger.xaml
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\Mekaniker.xaml
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\Admin.xbf
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\Bruger.xbf
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\Mekaniker.xbf
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\View\Admin.xbf
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\View\CreateAccount.xbf
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\View\Customer.xbf
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\View\LogIn.xbf
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\View\Mechanic.xbf
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\Newtonsoft.Json.dll
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\Admin.g.i.cs
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\Admin.g.cs
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\CreateAccount.g.i.cs
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\CreateAccount.g.cs
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\Customer.g.i.cs
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\Customer.g.cs
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\LogIn.g.i.cs
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\LogIn.g.cs
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\Mechanic.g.i.cs
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\Mechanic.g.cs
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\Admin.xaml
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\CreateAccount.xaml
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\Customer.xaml
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\LogIn.xaml
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\Mechanic.xaml
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\Admin.xbf
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\CreateAccount.xbf
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\Customer.xbf
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\LogIn.xbf
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\Mechanic.xbf
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\App.xbf
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\View\Admin.xbf
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\View\CreateAccount.xbf
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\View\Customer.xbf
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\View\LogIn.xbf
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\MainPage.xbf
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\View\Mechanic.xbf
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\JustFixIt.xr.xml
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\JustFixIt.exe
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\JustFixIt.pdb
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\resources.pri
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\AppxManifest.xml
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\Core\AppxManifest.xml
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\Core\JustFixIt.exe
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\JustFixIt.build.appxrecipe
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\Newtonsoft.Json.dll
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\System.Runtime.dll
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\bin\ARM\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\JustFixIt.csprojAssemblyReference.cache
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\App.g.i.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\App.g.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\Admin.g.i.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\Admin.g.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\CreateAccount.g.i.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\CreateAccount.g.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\Customer.g.i.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\Customer.g.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\LogIn.g.i.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\LogIn.g.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\MainPage.g.i.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\MainPage.g.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\Mechanic.g.i.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\Mechanic.g.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\XamlTypeInfo.g.cs
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\App.xaml
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\Admin.xaml
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\CreateAccount.xaml
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\Customer.xaml
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\LogIn.xaml
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\MainPage.xaml
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\Mechanic.xaml
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\App.xbf
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\Admin.xbf
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\CreateAccount.xbf
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\Customer.xbf
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\LogIn.xbf
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\MainPage.xbf
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\View\Mechanic.xbf
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\XamlSaveStateFile.xml
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\JustFixIt.csproj.CopyComplete
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\JustFixIt.exe
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\JustFixIt.pdb
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\ResourceHandlingTask.state
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\priconfig.xml
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\priconfig.xml.intermediate
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\unfiltered.layout.resfiles
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\filtered.layout.resfiles
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\filtered.layout.resfiles.intermediate
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\excluded.layout.resfiles
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\excluded.layout.resfiles.intermediate
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\resources.resfiles
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\resources.resfiles.intermediate
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\pri.resfiles
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\pri.resfiles.intermediate
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\qualifiers.txt
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\qualifiers.txt.intermediate
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\ProjectArchitectures.txt
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\ARM\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
