@@ -407,3 +407,12 @@ JustFix/JustFixIt/JustFixIt/obj/x64/Debug/JustFixIt.xr.xml
 JustFix/JustFixIt/JustFixIt/obj/x64/Debug/View/Admin.g.cs
 JustFix/JustFixIt/JustFixIt/obj/x64/Debug/View/Admin.g.i.cs
 JustFix/JustFixIt/JustFixIt/obj/x64/Debug/XamlSaveStateFile.xml
+*.xbf
+*.appxrecipe
+*.exe
+*.pdb
+*.xml
+*.json
+*.cache
+*.xml
+JustFix/JustFixIt/.vs/JustFixIt/v16/Server/sqlite3/storage.ide
