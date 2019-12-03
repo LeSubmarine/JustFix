@@ -10,8 +10,8 @@
 
 namespace JustFixIt
 {
-    partial class Customer : 
-        global::Windows.UI.Xaml.Controls.Page, 
+    partial class Customer :
+        global::Windows.UI.Xaml.Controls.Page,
         global::Windows.UI.Xaml.Markup.IComponentConnector,
         global::Windows.UI.Xaml.Markup.IComponentConnector2
     {
@@ -48,4 +48,3 @@ namespace JustFixIt
         }
     }
 }
-
