@@ -15,7 +15,6 @@ namespace JustFixIt.Model
         }
         #endregion
 
-
         #region Properties
         public int Time { get; set; }
         public int Price { get; set; }
@@ -28,5 +27,7 @@ namespace JustFixIt.Model
             int totalTid = antalKvarter * 15;
             return totalTid;
         }
+
+
     }
 }

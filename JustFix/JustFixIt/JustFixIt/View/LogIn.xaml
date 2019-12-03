@@ -19,10 +19,19 @@
             <RowDefinition Height="3*" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="2*" />
-            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="5*" />
+            <ColumnDefinition Width="5*" />
+
         </Grid.ColumnDefinitions>
+        <Viewbox Grid.Row="0" Grid.Column="0">
+            <TextBlock
+                x:Name="UserName"
+                Width="140"
+                Margin="2"
+                HorizontalAlignment="Stretch"
+                Text="User Name"
+                TextAlignment="Center" />
+        </Viewbox>
         <Viewbox Grid.Row="0" Grid.Column="1">
             <TextBox
                 x:Name="LogInName"
