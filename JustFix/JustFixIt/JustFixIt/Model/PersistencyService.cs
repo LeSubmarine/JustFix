@@ -14,15 +14,15 @@ namespace NoteMVVM
 {
     class PersistencyService
     {
-        private static string jsonFileName = "Notes.json";
+        private static string jsonFileName = "Users.json";
 
-        public static async void SaveNotesAsJsonAsync(ObservableCollection<User> notes)
+        public static async void SaveUsersAsJsonAsync(ObservableCollection<User> Users)
         {
-            string notesJsonString = JsonConvert.SerializeObject(notes);
+            string notesJsonString = JsonConvert.SerializeObject(Users);
             SerializeNotesFileAsync(notesJsonString, jsonFileName);
         }
 
-        public static async Task<List<User>> LoadNotesFromJsonAsync()
+        public static async Task<List<User>> LoadUsersFromJsonAsync()
         {
             string notesJsonString = await DeserializeNotesFileAsync(jsonFileName);
             if (notesJsonString != null)

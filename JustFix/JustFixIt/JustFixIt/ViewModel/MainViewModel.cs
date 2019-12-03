@@ -9,13 +9,7 @@ namespace JustFixIt.ViewModel
 {
     class MainViewModel
     {
-
-        #region Properties
-        public static List<User> AllUsers { get; set; } = new List<User>();
-        public static User ActiveUser { get; set; } 
-        public static System.Type NavigationPage { get; set; }
-        #endregion
-
+        #region Constructor
         public MainViewModel()
         {
             NavigationPage = typeof(MainPage);
@@ -24,7 +18,27 @@ namespace JustFixIt.ViewModel
             MainViewModel.AllUsers.Add(new MechanicUser("15", "Mechanic", "Mechanic", "sds", "11122235", "gfto@IDontNeedNoDocumentationLmao.Ik'LæsMinKodeYo"));
             MainViewModel.AllUsers.Add(new CustomerUser("16", "Test", "Test", "sdds", "11122236", "asd@asdd.dk"));
         }
+        #endregion
 
 
+        #region Properties
+        public static List<User> AllUsers { get; set; } = new List<User>();
+        public static User ActiveUser { get; set; }
+        public static System.Type NavigationPage { get; set; }
+        #endregion
+
+
+        #region Methods
+
+        public static void Save()
+        {
+
+        }
+
+        public static void Load()
+        {
+
+        }
+        #endregion
     }
 }
