@@ -121,6 +121,7 @@
     </Compile>
     <Compile Include="Model\Car.cs" />
     <Compile Include="Model\TaskTypes\BrakeFluidChangeTask.cs" />
+    <Compile Include="Model\TaskTypes\ApplyingWinterTires.cs" />
     <Compile Include="Model\TaskTypes\FilterChangeTask.cs" />
     <Compile Include="Model\TaskTypes\RemoveTiresTask.cs" />
     <Compile Include="Model\UserTypes\AdminUser.cs" />

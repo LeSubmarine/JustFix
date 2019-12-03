@@ -15,9 +15,9 @@ namespace JustFixIt
 
 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
-        private global::Windows.UI.Xaml.Controls.Button Back; 
+        private global::Windows.UI.Xaml.Controls.Button Back;
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
-        private global::Windows.UI.Xaml.Controls.ListView UserList; 
+        private global::Windows.UI.Xaml.Controls.ListView UserList;
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
         private bool _contentLoaded;
 
@@ -41,5 +41,3 @@ namespace JustFixIt
 
     }
 }
-
-

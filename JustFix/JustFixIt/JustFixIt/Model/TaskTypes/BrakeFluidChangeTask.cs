@@ -11,7 +11,7 @@ namespace JustFixIt.Model.TaskTypes
         public BrakeFluidChangeTask(Car car) : base(car)
         {
             Price = Convert.ToInt32(0 * Car.PriceModifier());
-            Time = Convert.ToInt32(0 * Car.TimeModifier());
+            Time = TimeIncrement15(1);
         }
     }
 }
