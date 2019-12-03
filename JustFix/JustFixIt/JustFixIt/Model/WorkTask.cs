@@ -19,7 +19,14 @@ namespace JustFixIt.Model
         #region Properties
         public int Time { get; set; }
         public int Price { get; set; }
-        public Car Car { get; set; } 
+        public Car Car { get; set; }
+
         #endregion
+
+        public int TimeIncrement15(int antalKvarter)
+        {
+            int totalTid = antalKvarter * 15;
+            return totalTid;
+        }
     }
 }

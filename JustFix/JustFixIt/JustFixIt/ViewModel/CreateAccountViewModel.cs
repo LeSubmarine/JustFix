@@ -25,7 +25,6 @@ namespace JustFixIt.ViewModel
 
         #endregion
 
-
         #region Properties
         public string Name
         {
@@ -90,7 +89,6 @@ namespace JustFixIt.ViewModel
         }
 
         #endregion
-
 
         #region Methods
         public void CreateAccount()

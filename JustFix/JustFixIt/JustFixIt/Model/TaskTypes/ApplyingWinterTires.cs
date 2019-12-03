@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace JustFixIt.Model.TaskTypes
 {
-    class FilterChangeTask : WorkTask
+    class ApplyingWinterTires : WorkTask
     {
-        public FilterChangeTask(Car car) : base(car)
+        public ApplyingWinterTires(Car car) : base(car)
         {
             Price = Convert.ToInt32(0 * Car.PriceModifier());
             Time = TimeIncrement15(1);
