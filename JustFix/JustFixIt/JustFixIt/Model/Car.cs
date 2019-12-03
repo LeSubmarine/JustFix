@@ -53,7 +53,7 @@ namespace JustFixIt.Model
             switch (CarType)
             {
                 case CarTypes.Citroën:
-                    modifier = modifier;
+                    //modifier = modifier;
                     break;
                 case CarTypes.Peugeot:
                     modifier = modifier * 1.3;
@@ -62,13 +62,13 @@ namespace JustFixIt.Model
                     modifier = modifier * 0.7;
                     break;
                 default:
-                    modifier = modifier;
+                    //modifier = modifier;
                     break;
             }
             switch (Condition)
             {
                 case Conditions.Deece:
-                    modifier = modifier;
+                    //modifier = modifier;
                     break;
                 case Conditions.Bad:
                     modifier = modifier * 1.3;
@@ -77,7 +77,7 @@ namespace JustFixIt.Model
                     modifier = modifier * 0.7;
                     break;
                 default:
-                    modifier = modifier;
+                    //modifier = modifier;
                     break;
             }
             return modifier;

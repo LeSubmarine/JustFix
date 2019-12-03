@@ -16,7 +16,7 @@ namespace NoteMVVM
     {
         private static string jsonFileName = "Users.json";
 
-        public static async void SaveUsersAsJsonAsync(ObservableCollection<User> Users)
+        public static async void SaveUsersAsJsonAsync(List<User> Users)
         {
             string notesJsonString = JsonConvert.SerializeObject(Users);
             SerializeNotesFileAsync(notesJsonString, jsonFileName);
