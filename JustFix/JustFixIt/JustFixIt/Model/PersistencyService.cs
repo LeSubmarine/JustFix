@@ -14,30 +14,53 @@ namespace NoteMVVM
 {
     class PersistencyService
     {
-        //private static string jsonFileName = "Users.json";
+        private static string jsonAdminsFileName = "Admins.json";
+        private static string jsonCustomersFileName = "Customers.json";
+        private static string jsonMechanicsFileName = "Mechanics.json";
 
-        public static async void SaveAdminsAsJsonAsync(List<User> Users)
+        public static async void SaveUsersAsJsonAsync(List<User> Users)
         {
-            string notesJsonString = JsonConvert.SerializeObject(Users);
-            SerializeNotesFileAsync(notesJsonString, "Admins.json");
-        }
-        public static async void SaveCustomerAsJsonAsync(List<User> Users)
-        {
-            string notesJsonString = JsonConvert.SerializeObject(Users);
-            SerializeNotesFileAsync(notesJsonString, "Customer.json");
-        }
-        public static async void SaveMechanicAsJsonAsync(List<User> Users)
-        {
-            string notesJsonString = JsonConvert.SerializeObject(Users);
-            SerializeNotesFileAsync(notesJsonString, "Mechanic.json");
+            //[0] = admin, [1] = customer, [2] = mechanic
+            List<User>[] SortedUsers = {new List<User>(), new List<User>(), new List<User>()};
+            foreach (User user in Users)
+            {
+                SortedUsers[(int) user.PersonType].Add(user);
+            }
+
+            //Admin saving
+            string adminsJsonString = JsonConvert.SerializeObject(SortedUsers[0]);
+            SerializeNotesFileAsync(adminsJsonString, jsonAdminsFileName);
+            //Customer saving
+            string customersJsonString = JsonConvert.SerializeObject(SortedUsers[1]);
+            SerializeNotesFileAsync(customersJsonString, jsonCustomersFileName);
+            //Mechanic saving
+            string mechanicsJsonString = JsonConvert.SerializeObject(SortedUsers[2]);
+            SerializeNotesFileAsync(mechanicsJsonString, jsonMechanicsFileName);
         }
 
         public static async Task<List<User>> LoadUsersFromJsonAsync()
         {
-            string notesJsonString = await DeserializeNotesFileAsync(jsonFileName);
-            if (notesJsonString != null)
-                return (List<User>)JsonConvert.DeserializeObject(notesJsonString, typeof(List<User>));
-            return null;
+            //Admin load
+            string adminJsonString = await DeserializeNotesFileAsync(jsonAdminsFileName);
+            //Customer load
+            string customerJsonString = await DeserializeNotesFileAsync(jsonCustomersFileName);
+            //Mechanic load
+            string mechanicJsonString = await DeserializeNotesFileAsync(jsonMechanicsFileName);
+            List<User> LoadedUsers = new List<User>();
+            foreach (AdminUser adminUser in (List<AdminUser>)JsonConvert.DeserializeObject(adminJsonString, typeof(List<AdminUser>)))
+            {
+                LoadedUsers.Add(adminUser);
+            }
+            foreach (CustomerUser customerUser in (List<CustomerUser>)JsonConvert.DeserializeObject(customerJsonString, typeof(List<CustomerUser>)))
+            {
+                LoadedUsers.Add(customerUser);
+            }
+            foreach (MechanicUser mechanicUser in (List<MechanicUser>)JsonConvert.DeserializeObject(mechanicJsonString, typeof(List<MechanicUser>)))
+            {
+                LoadedUsers.Add(mechanicUser);
+            }
+
+            return LoadedUsers;
         }
 
 

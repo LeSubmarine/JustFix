@@ -18,6 +18,14 @@ namespace JustFixIt.Model
             Customer,
             Mechanic
         }
+
+        public enum UserClasses
+        {
+            AdminUser,
+            CustomerUser,
+            Mechanic,
+            User
+        }
         #endregion
 
 
@@ -76,7 +84,22 @@ namespace JustFixIt.Model
                 default:
                     return typeof(LogIn);
             }
-        } 
+        }
+
+        public static UserClasses UserClass(int i)
+        {
+            switch (i)
+            {
+                case (0):
+                    return UserClasses.AdminUser;
+                case (1):
+                    return UserClasses.CustomerUser;
+                case (2):
+                    return UserClasses.Mechanic;
+                default:
+                    return UserClasses.User;
+            }
+        }
         #endregion
 
     }
