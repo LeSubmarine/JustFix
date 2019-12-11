@@ -9,7 +9,6 @@ using System.Windows.Input;
 using Windows.ApplicationModel.VoiceCommands;
 using JustFixIt.Annotations;
 using JustFixIt.Model;
-using NoteMVVM;
 
 namespace JustFixIt.ViewModel
 {
@@ -24,6 +23,7 @@ namespace JustFixIt.ViewModel
         private string _number;
 
         #endregion
+
 
         #region Properties
         public string Name
@@ -89,6 +89,7 @@ namespace JustFixIt.ViewModel
         }
 
         #endregion
+
 
         #region Methods
         public void CreateAccount()

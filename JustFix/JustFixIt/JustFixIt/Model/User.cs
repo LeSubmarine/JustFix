@@ -7,8 +7,6 @@ using JustFixIt.View;
 
 namespace JustFixIt.Model
 {
-    //User parent class
-    //
     abstract class User
     {
         #region Constants
@@ -18,19 +16,6 @@ namespace JustFixIt.Model
             Customer,
             Mechanic
         }
-
-        public enum UserClasses
-        {
-            AdminUser,
-            CustomerUser,
-            Mechanic,
-            User
-        }
-        #endregion
-
-
-        #region InstanceField
-
         #endregion
 
 
@@ -83,21 +68,6 @@ namespace JustFixIt.Model
                     return typeof(Mechanic);
                 default:
                     return typeof(LogIn);
-            }
-        }
-
-        public static UserClasses UserClass(int i)
-        {
-            switch (i)
-            {
-                case (0):
-                    return UserClasses.AdminUser;
-                case (1):
-                    return UserClasses.CustomerUser;
-                case (2):
-                    return UserClasses.Mechanic;
-                default:
-                    return UserClasses.User;
             }
         }
         #endregion

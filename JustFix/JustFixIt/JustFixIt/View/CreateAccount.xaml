@@ -73,7 +73,7 @@
             Grid.Row="2"
             Grid.Column="2"
             HorizontalAlignment="Left">
-            <TextBox Width="200" Text="{Binding Password, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+            <PasswordBox Width="200" Password="{Binding Password, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
         </Viewbox>
         <Viewbox
             Grid.Row="3"

@@ -10,7 +10,6 @@ using Windows.UI.Xaml;
 using JustFixIt.Annotations;
 using JustFixIt.Model;
 using JustFixIt.View;
-using NoteMVVM;
 
 namespace JustFixIt.ViewModel
 {

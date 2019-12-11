@@ -3,7 +3,6 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:local="using:JustFixIt.View"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:viewModel="using:JustFixIt.ViewModel"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
@@ -36,17 +35,12 @@
                 Text="{Binding LogInName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                 TextAlignment="Center" />
         </Viewbox>
-        <Viewbox
-            Grid.Row="1"
-            Grid.Column="0"
-            Grid.ColumnSpan="2">
-            <TextBox
+        <Viewbox Grid.Row="1" Grid.Column="1">
+            <PasswordBox
                 x:Name="Password"
                 Width="140"
                 Margin="2"
-                HorizontalAlignment="Stretch"
-                Text="{Binding Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-                TextAlignment="Center" />
+                HorizontalAlignment="Stretch"/>
         </Viewbox>
         <Viewbox Grid.Row="2" Grid.ColumnSpan="3">
             <StackPanel Padding="5" Orientation="Horizontal">
