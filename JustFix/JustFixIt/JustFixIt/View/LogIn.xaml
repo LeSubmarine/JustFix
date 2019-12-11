@@ -41,13 +41,11 @@
                 TextAlignment="Center" />
         </Viewbox>
         <Viewbox Grid.Row="1" Grid.Column="1">
-            <TextBox
+            <PasswordBox
                 x:Name="Password"
                 Width="140"
                 Margin="2"
-                HorizontalAlignment="Stretch"
-                Text="{Binding Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-                TextAlignment="Center" />
+                HorizontalAlignment="Stretch"/>
         </Viewbox>
         <Viewbox Grid.Row="2" Grid.ColumnSpan="3">
             <StackPanel Padding="5" Orientation="Horizontal">
