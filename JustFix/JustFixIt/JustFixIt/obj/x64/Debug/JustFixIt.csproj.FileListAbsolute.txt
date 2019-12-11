@@ -137,3 +137,4 @@ C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\
 C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\ProjectArchitectures.txt
 C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
+C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\JustFixIt.csprojAssemblyReference.cache
