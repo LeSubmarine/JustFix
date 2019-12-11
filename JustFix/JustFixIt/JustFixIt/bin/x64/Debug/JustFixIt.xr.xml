@@ -79,6 +79,12 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="TextAlignment" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.PasswordBox">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Password" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
     <RootType FullName="JustFixIt.View.CreateAccount" />
     <RootType FullName="JustFixIt.ViewModel.CustomerViewModel" />
     <RootType FullName="JustFixIt.Customer" />
