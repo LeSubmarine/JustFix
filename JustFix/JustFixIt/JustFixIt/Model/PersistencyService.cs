@@ -10,7 +10,7 @@ using Windows.UI.Popups;
 using JustFixIt.Model;
 using Newtonsoft.Json;
 
-namespace NoteMVVM
+namespace JustFixIt.Model
 {
     class PersistencyService
     {

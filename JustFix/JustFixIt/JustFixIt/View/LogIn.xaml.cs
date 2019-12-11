@@ -36,7 +36,7 @@ namespace JustFixIt.View
 
         private void LogInButton_Click(object sender, RoutedEventArgs e)
         {
-            LogInViewModel.LogUserIn(this.LogInName.Text,this.Password.Text);
+            LogInViewModel.LogUserIn(this.LogInName.Text,this.Password.Password);
             if (!(MainViewModel.NavigationPage == typeof(LogIn)))
             {
                 this.Frame.Navigate(MainViewModel.NavigationPage);
@@ -44,7 +44,7 @@ namespace JustFixIt.View
             else
             {
                 this.LogInName.Text = "";
-                this.Password.Text = "";
+                this.Password.Password = "";
             }
         }
     }

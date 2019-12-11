@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Windows.ApplicationModel.Store;
-using NoteMVVM;
+using JustFixIt.Model;
 
 namespace JustFixIt.ViewModel
 {

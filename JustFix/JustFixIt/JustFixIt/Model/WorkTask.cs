@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JustFixIt.Model
 {
-    abstract class WorkTask
+    class WorkTask
     {
         #region Constructor
         public WorkTask(Car car)
