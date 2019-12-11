@@ -23,16 +23,11 @@
             <ColumnDefinition Width="5*" />
 
         </Grid.ColumnDefinitions>
-        <Viewbox Grid.Row="0" Grid.Column="0">
-            <TextBlock
-                x:Name="UserName"
-                Width="140"
-                Margin="2"
-                HorizontalAlignment="Stretch"
-                Text="User Name"
-                TextAlignment="Center" />
-        </Viewbox>
-        <Viewbox Grid.Row="0" Grid.Column="1">
+
+        <Viewbox
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="2">
             <TextBox
                 x:Name="LogInName"
                 Width="140"
@@ -41,7 +36,10 @@
                 Text="{Binding LogInName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                 TextAlignment="Center" />
         </Viewbox>
-        <Viewbox Grid.Row="1" Grid.Column="1">
+        <Viewbox
+            Grid.Row="1"
+            Grid.Column="0"
+            Grid.ColumnSpan="2">
             <TextBox
                 x:Name="Password"
                 Width="140"
