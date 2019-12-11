@@ -136,7 +136,7 @@
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\MechanicViewModel.cs" />
     <Compile Include="ViewModel\OrderViewModel.cs" />
-    <Compile Include="View\Admin.xaml.cs">
+    <Compile Include="View\Admin\Admin.xaml.cs">
       <DependentUpon>Admin.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Customer\CreateAccount.xaml.cs">

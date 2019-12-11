@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-QNQ0I3F</Machine>
-    <WindowsUser>henri</WindowsUser>
+    <Machine>LAPTOP-REHE0VLE</Machine>
+    <WindowsUser>Jonas</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,165 +10,174 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>782360b6-0253-44ca-bbca-ab2a2cb12f2e</PackageIdentityName>
     <PackageIdentityPublisher>CN=henri</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\JustFixIt.exe">
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\JustFixIt.exe">
       <PackagePath>entrypoint\JustFixIt.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\Jonas\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\Jonas\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\78055709_555067945055773_2867606121437200384_n.jpg">
-      <PackagePath>DesignNotes\78055709_555067945055773_2867606121437200384_n.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\Assets\Logo wide.png">
+      <PackagePath>Assets\Logo wide.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\78244538_433874070878883_4335748581706170368_n.jpg">
-      <PackagePath>DesignNotes\78244538_433874070878883_4335748581706170368_n.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\78247887_2748896485160661_6457030996465287168_n.jpg">
-      <PackagePath>DesignNotes\78247887_2748896485160661_6457030996465287168_n.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\78383275_2527558967567567_6213954333050929152_n.jpg">
-      <PackagePath>DesignNotes\78383275_2527558967567567_6213954333050929152_n.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\78424941_554618788654566_2145930639365373952_n.jpg">
-      <PackagePath>DesignNotes\78424941_554618788654566_2145930639365373952_n.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\79181657_746786829155283_8500388672816807936_n.jpg">
-      <PackagePath>DesignNotes\79181657_746786829155283_8500388672816807936_n.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\79281021_447899962531564_3108550410898505728_n.jpg">
-      <PackagePath>DesignNotes\79281021_447899962531564_3108550410898505728_n.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\JustFixIt.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\78055709_555067945055773_2867606121437200384_n.jpg">
+      <PackagePath>DesignNotes\78055709_555067945055773_2867606121437200384_n.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\78244538_433874070878883_4335748581706170368_n.jpg">
+      <PackagePath>DesignNotes\78244538_433874070878883_4335748581706170368_n.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\78247887_2748896485160661_6457030996465287168_n.jpg">
+      <PackagePath>DesignNotes\78247887_2748896485160661_6457030996465287168_n.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\78383275_2527558967567567_6213954333050929152_n.jpg">
+      <PackagePath>DesignNotes\78383275_2527558967567567_6213954333050929152_n.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\78424941_554618788654566_2145930639365373952_n.jpg">
+      <PackagePath>DesignNotes\78424941_554618788654566_2145930639365373952_n.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\79181657_746786829155283_8500388672816807936_n.jpg">
+      <PackagePath>DesignNotes\79181657_746786829155283_8500388672816807936_n.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\DesignNotes\79281021_447899962531564_3108550410898505728_n.jpg">
+      <PackagePath>DesignNotes\79281021_447899962531564_3108550410898505728_n.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\JustFixIt.xr.xml">
       <PackagePath>JustFixIt.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Admin.xbf">
-      <PackagePath>View\Admin.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Admin\Admin.xbf">
+      <PackagePath>View\Admin\Admin.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\CreateAccount.xbf">
-      <PackagePath>View\CreateAccount.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Customer\CreateAccount.xbf">
+      <PackagePath>View\Customer\CreateAccount.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Customer.xbf">
-      <PackagePath>View\Customer.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Customer\Customer.xbf">
+      <PackagePath>View\Customer\Customer.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\LogIn.xbf">
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\LogIn.xbf">
       <PackagePath>View\LogIn.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Mechanic.xbf">
-      <PackagePath>View\Mechanic.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Mechanic\Mechanic.xbf">
+      <PackagePath>View\Mechanic\Mechanic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Order.xbf">
+      <PackagePath>View\Order.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\Core\JustFixIt.exe">
+    <AppxPackagedFile Include="C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\Core\JustFixIt.exe">
       <PackagePath>JustFixIt.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\Jonas\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\Jonas\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\Jonas\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\Jonas\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\Jonas\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\Jonas\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\Jonas\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.27909.0</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\Jonas\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\Jonas\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.27909.0</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\Jonas\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\Jonas\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.27909.0</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\Jonas\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
