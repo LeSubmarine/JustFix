@@ -13,6 +13,9 @@ namespace JustFixIt.ViewModel
 {
     class AdminViewModel : INotifyPropertyChanged
     {
+        //Skal kunne adde en task, til Week.Weektable
+        //Skal kunne remove en task, fra Week.Weektable
+        //
         #region Instance field
 
         private User _selectedUser;

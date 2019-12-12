@@ -1,4 +1,8 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace JustFixIt.Model
 {
@@ -15,7 +19,8 @@ namespace JustFixIt.Model
             StarterSystem,
             Engine,
             Electronics,
-            Gearbox
+            Gearbox,
+            Service
         }
         #endregion
 
@@ -26,6 +31,8 @@ namespace JustFixIt.Model
 
         public TaskTypes TaskType { get; set; }
         #endregion
+
+
 
         public void TimeAndPrice()
         {
@@ -67,13 +74,17 @@ namespace JustFixIt.Model
                     TimeChunk30Min = 4;
                     Price = 3500;
                     break;
+                case TaskTypes.Service:
+                    TimeChunk30Min = 1;
+                    Price = 400;
+                    break;
                 default:
                     TimeChunk30Min = 0;
                     Price = 0;
                     break;
             }
         }
-        
+
 
 
 
