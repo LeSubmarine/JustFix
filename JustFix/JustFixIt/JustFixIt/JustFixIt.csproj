@@ -131,6 +131,7 @@
     <Compile Include="ViewModel\AdminViewModel.cs" />
     <Compile Include="ViewModel\CreateCarViewModel.cs" />
     <Compile Include="ViewModel\CreateAccountViewModel.cs" />
+    <Compile Include="ViewModel\CreateEmployeeAccount.cs" />
     <Compile Include="ViewModel\CustomerViewModel.cs" />
     <Compile Include="ViewModel\LogInViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
@@ -138,6 +139,9 @@
     <Compile Include="ViewModel\OrderViewModel.cs" />
     <Compile Include="View\Admin.xaml.cs">
       <DependentUpon>Admin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Admin\BlankPage1.xaml.cs">
+      <DependentUpon>CreateMechanic.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Customer\CreateAccount.xaml.cs">
       <DependentUpon>CreateAccount.xaml</DependentUpon>
@@ -189,6 +193,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="View\Admin\Admin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Admin\CreateMechanic.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
