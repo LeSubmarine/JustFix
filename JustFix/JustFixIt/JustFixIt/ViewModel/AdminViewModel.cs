@@ -13,6 +13,7 @@ namespace JustFixIt.ViewModel
 {
     class AdminViewModel : INotifyPropertyChanged
     {
+        //
         #region Instance field
 
         private User _selectedUser;
