@@ -9,44 +9,32 @@ namespace JustFixIt.Model
     class Car
     {
         #region Constant
+
         public enum CarTypes
         {
             Peugeot,
             Citroën,
             Renault
         }
-
-        public enum Conditions
-        {
-            Good,
-            Bad,
-            Deece
-        }
         #endregion
 
 
         #region Constructor
-        public Car(int age, CarTypes carType, Conditions condition)
+        public Car(int carYear, CarTypes carType)
         {
-            Age = age;
+            CarYear = carYear;
             CarType = carType;
-            Condition = condition;
         }
         #endregion
 
 
         #region Properties
-        public int Age { get; set; }
+        public int CarYear  { get; set; }
         public CarTypes CarType { get; set; }
-        public Conditions Condition { get; set; }
         #endregion
 
 
         #region Methods
-        public double TimeModifier()
-        {
-            return 1.0;
-        }
         public double PriceModifier()
         {
             double modifier = 1.0;
@@ -56,29 +44,19 @@ namespace JustFixIt.Model
                     //modifier = modifier;
                     break;
                 case CarTypes.Peugeot:
-                    modifier = modifier * 1.3;
+                    modifier = modifier + 0.3;
                     break;
                 case CarTypes.Renault:
-                    modifier = modifier * 0.7;
+                    modifier = modifier - 0.3;
                     break;
                 default:
                     //modifier = modifier;
                     break;
             }
-            switch (Condition)
+
+            if (CarYear <= 2010)
             {
-                case Conditions.Deece:
-                    //modifier = modifier;
-                    break;
-                case Conditions.Bad:
-                    modifier = modifier * 1.3;
-                    break;
-                case Conditions.Good:
-                    modifier = modifier * 0.7;
-                    break;
-                default:
-                    //modifier = modifier;
-                    break;
+                modifier = modifier + 0.1;
             }
             return modifier;
         } 
