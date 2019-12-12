@@ -12,18 +12,20 @@ namespace JustFixIt.Model
 
         public enum CarTypes
         {
-            Peugeot,
-            Citroën,
+            Peugeot = 1,
+            Citroen,
             Renault
         }
         #endregion
 
+        
 
         #region Constructor
-        public Car(int carYear, CarTypes carType)
+        public Car(int carYear, int carType, string licensePlate)
         {
             CarYear = carYear;
-            CarType = carType;
+            CarType = (CarTypes)carType;
+            LicensePlate = licensePlate;
         }
         #endregion
 
@@ -31,6 +33,8 @@ namespace JustFixIt.Model
         #region Properties
         public int CarYear  { get; set; }
         public CarTypes CarType { get; set; }
+        public string LicensePlate { get; set; }
+        public static List<string> CarTypesString { get; set; } = new List<string>() { "Peugeot", "Citroen", "Renault" };
         #endregion
 
 
@@ -40,7 +44,7 @@ namespace JustFixIt.Model
             double modifier = 1.0;
             switch (CarType)
             {
-                case CarTypes.Citroën:
+                case CarTypes.Citroen:
                     //modifier = modifier;
                     break;
                 case CarTypes.Peugeot:

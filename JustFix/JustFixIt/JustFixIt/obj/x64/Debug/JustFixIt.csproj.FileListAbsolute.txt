@@ -136,7 +136,6 @@ C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debu
 C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\Newtonsoft.Json.dll
 C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\System.Runtime.dll
 C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
-C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\JustFixIt.csprojAssemblyReference.cache
 C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\App.g.i.cs
 C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\App.g.cs
 C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Admin.g.i.cs
@@ -209,3 +208,13 @@ C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\
 C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Customer\Customer.xbf
 C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Mechanic\Mechanic.xbf
 C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Order.xbf
+C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Order.xbf
+C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Order.g.i.cs
+C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Order.g.cs
+C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Order.xaml
+C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Order.xbf
+C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\AddCar.xbf
+C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\AddCar.g.i.cs
+C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\AddCar.g.cs
+C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\AddCar.xaml
+C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\AddCar.xbf

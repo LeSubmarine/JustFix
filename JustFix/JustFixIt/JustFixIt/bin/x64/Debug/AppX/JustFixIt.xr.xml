@@ -3,6 +3,7 @@
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="SelectedUser" />
     <RootPropertyPathName Name="Users" />
+    <RootPropertyPathName Name="CarTypes" />
     <RootPropertyPathName Name="CreateAccountCommand" />
     <RootPropertyPathName Name="Number" />
     <RootPropertyPathName Name="Email" />
@@ -62,6 +63,14 @@
       <RootProperty Name="SelectedItem" />
     </RootType>
     <RootType FullName="JustFixIt.Admin" />
+    <RootType FullName="JustFixIt.ViewModel.CreateCarViewModel" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="ItemsSource" />
+    </RootType>
+    <RootType FullName="JustFixIt.View.AddCar" />
     <RootType FullName="JustFixIt.ViewModel.CreateAccountViewModel" />
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Padding" />

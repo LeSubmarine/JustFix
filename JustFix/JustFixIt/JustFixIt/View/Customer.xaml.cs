@@ -32,5 +32,10 @@ namespace JustFixIt
         {
             this.Frame.Navigate(typeof(LogIn));
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(AddCar));
+        }
     }
 }

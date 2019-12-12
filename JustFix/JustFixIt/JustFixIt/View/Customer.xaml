@@ -11,9 +11,13 @@
     <Page.DataContext>
         <viewModel:CustomerViewModel />
     </Page.DataContext>
-    <Grid Background="Blue">
+    <Grid Background="White">
         <Viewbox>
-            <Button x:Name="Back" Click="Back_Click" />
+            <StackPanel>
+            <Button x:Name="Back" Click="Back_Click" Content="Back" />
+
+                <Button Content="Add Car" Click="Button_Click"></Button>
+            </StackPanel>
         </Viewbox>
     </Grid>
 </Page>
