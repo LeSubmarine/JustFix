@@ -9,58 +9,76 @@ namespace JustFixIt.Model
     class Car
     {
         #region Constant
-
         public enum CarTypes
         {
-            Peugeot = 1,
-            Citroen,
+            Peugeot,
+            Citroën,
             Renault
+        }
+
+        public enum Conditions
+        {
+            Good,
+            Bad,
+            Deece
         }
         #endregion
 
-        
 
         #region Constructor
-        public Car(int carYear, int carType, string licensePlate)
+        public Car(int age, CarTypes carType, Conditions condition)
         {
-            CarYear = carYear;
-            CarType = (CarTypes)carType;
-            LicensePlate = licensePlate;
+            Age = age;
+            CarType = carType;
+            Condition = condition;
         }
         #endregion
 
 
         #region Properties
-        public int CarYear  { get; set; }
+        public int Age { get; set; }
         public CarTypes CarType { get; set; }
-        public string LicensePlate { get; set; }
-        public static List<string> CarTypesString { get; set; } = new List<string>() { "Peugeot", "Citroen", "Renault" };
+        public Conditions Condition { get; set; }
         #endregion
 
 
         #region Methods
+        public double TimeModifier()
+        {
+            return 1.0;
+        }
         public double PriceModifier()
         {
             double modifier = 1.0;
             switch (CarType)
             {
-                case CarTypes.Citroen:
+                case CarTypes.Citroën:
                     //modifier = modifier;
                     break;
                 case CarTypes.Peugeot:
-                    modifier = modifier + 0.3;
+                    modifier = modifier * 1.3;
                     break;
                 case CarTypes.Renault:
-                    modifier = modifier - 0.3;
+                    modifier = modifier * 0.7;
                     break;
                 default:
                     //modifier = modifier;
                     break;
             }
-
-            if (CarYear <= 2010)
+            switch (Condition)
             {
-                modifier = modifier + 0.1;
+                case Conditions.Deece:
+                    //modifier = modifier;
+                    break;
+                case Conditions.Bad:
+                    modifier = modifier * 1.3;
+                    break;
+                case Conditions.Good:
+                    modifier = modifier * 0.7;
+                    break;
+                default:
+                    //modifier = modifier;
+                    break;
             }
             return modifier;
         } 
