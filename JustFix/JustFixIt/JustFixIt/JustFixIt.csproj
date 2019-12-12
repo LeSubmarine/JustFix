@@ -120,6 +120,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\Car.cs" />
+    <Compile Include="Model\Task.cs" />
     <Compile Include="Model\Time\Day.cs" />
     <Compile Include="Model\Time\Week.cs" />
     <Compile Include="Model\UserTypes\AdminUser.cs" />
