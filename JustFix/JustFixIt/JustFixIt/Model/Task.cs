@@ -27,37 +27,46 @@ namespace JustFixIt.Model
         public TaskTypes TaskType { get; set; }
         #endregion
 
-        public int TimeAndPrice()
+        public void TimeAndPrice()
         {
             switch (TaskType)
             {
-                case: TaskTypes.ChangeTires;
+                case TaskTypes.ChangeTires:
                     TimeChunk30Min = 1;
                     Price = 4500;
-                case: TaskTypes.ChangeBrakes;
+                    break;
+                case TaskTypes.ChangeBrakes:
                     TimeChunk30Min = 2;
                     Price = 2500;
-                case: TaskTypes.Suspension;
+                    break;
+                case TaskTypes.Suspension:
                     TimeChunk30Min = 2;
                     Price = 1500;
-                case: TaskTypes.ExhaustSystem;
+                    break;
+                case TaskTypes.ExhaustSystem:
                     TimeChunk30Min = 4;
                     Price = 3000;
-                case: TaskTypes.OilLubricationSystem;
+                    break;
+                case TaskTypes.OilLubricationSystem:
                     TimeChunk30Min = 2;
                     Price = 1250;
-                case: TaskTypes.StarterSystem;
+                    break;
+                case TaskTypes.StarterSystem:
                     TimeChunk30Min = 3;
                     Price = 1750;
-                case: TaskTypes.Engine;
+                    break;
+                case TaskTypes.Engine:
                     TimeChunk30Min = 8;
                     Price = 10000;
-                case: TaskTypes.Electronics;
+                    break;
+                case TaskTypes.Electronics:
                     TimeChunk30Min = 2;
                     Price = 750;
-                case: TaskTypes.Gearbox;
+                    break;
+                case TaskTypes.Gearbox:
                     TimeChunk30Min = 4;
                     Price = 3500;
+                    break;
                 default:
                     TimeChunk30Min = 0;
                     Price = 0;
