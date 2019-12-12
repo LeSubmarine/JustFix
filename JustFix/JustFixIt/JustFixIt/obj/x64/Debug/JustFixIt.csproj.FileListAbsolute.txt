@@ -41,23 +41,8 @@ C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debu
 C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\ProjectArchitectures.txt
 C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Admin.xbf
 C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\JustFixIt.csprojAssemblyReference.cache
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Admin.g.i.cs
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Admin.g.cs
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Admin.xaml
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Admin.xbf
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Mechanic.g.i.cs
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Mechanic.g.cs
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Mechanic.xaml
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Mechanic.xbf
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Customer.xbf
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Mechanic.xbf
 C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\Newtonsoft.Json.dll
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Customer.g.i.cs
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Customer.g.cs
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Customer.xaml
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Customer.xbf
 C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\App.g.i.cs
 C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\App.g.cs
 C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Admin.g.i.cs
@@ -78,14 +63,10 @@ C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\
 C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\XamlSaveStateFile.xml
 C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\JustFixIt.exe
 C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\JustFixIt.pdb
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\CreateAccount.g.i.cs
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\CreateAccount.g.cs
 C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\LogIn.g.i.cs
 C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\LogIn.g.cs
 C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\LogIn.xaml
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\CreateAccount.xaml
 C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\LogIn.xbf
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\CreateAccount.xbf
 C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\CreateAccount.g.i.cs
 C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\CreateAccount.g.cs
 C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\LogIn.g.i.cs
@@ -98,7 +79,6 @@ C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\
 C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\CreateAccount.xbf
 C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\LogIn.xbf
 C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\MainPage.xbf
-C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\CreateAccount.xbf
 C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\LogIn.xbf
 C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\App.xbf
 C:\Users\tobia\Desktop\THE REPO STFU NIBBAS\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Admin.xbf
@@ -214,3 +194,28 @@ C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debu
 C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Customer\Customer.xbf
 C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Mechanic\Mechanic.xbf
 C:\Users\Jonas\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Order.xbf
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Admin\Admin.g.i.cs
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Admin\Admin.g.cs
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Customer\CreateAccount.g.i.cs
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Customer\CreateAccount.g.cs
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Customer\Customer.g.i.cs
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Customer\Customer.g.cs
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Mechanic\Mechanic.g.i.cs
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Mechanic\Mechanic.g.cs
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Order.g.i.cs
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Order.g.cs
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Admin\Admin.xaml
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Customer\CreateAccount.xaml
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Customer\Customer.xaml
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Mechanic\Mechanic.xaml
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Order.xaml
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Admin\Admin.xbf
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Customer\CreateAccount.xbf
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Customer\Customer.xbf
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Mechanic\Mechanic.xbf
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\obj\x64\Debug\View\Order.xbf
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Admin\Admin.xbf
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Customer\CreateAccount.xbf
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Customer\Customer.xbf
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Mechanic\Mechanic.xbf
+C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Order.xbf
