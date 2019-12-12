@@ -23,7 +23,7 @@ namespace JustFixIt.Model
 
 
         #region Properties
-        public Timetable MechTimetable { get; set; }
+        public Day MechTimetable { get; set; }
         #endregion
 
     }

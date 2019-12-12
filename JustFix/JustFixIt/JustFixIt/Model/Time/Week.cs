@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace JustFixIt.Model
 {
-    class TimetableCatalogue
+    class Week
     {
-        public TimetableCatalogue()
+        public Week()
         {
             
         }
