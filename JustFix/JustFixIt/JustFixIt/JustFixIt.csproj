@@ -120,9 +120,8 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\Car.cs" />
-    <Compile Include="Model\Task.cs" />
-    <Compile Include="Model\Timetable.cs" />
-    <Compile Include="Model\TimetableCatalogue.cs" />
+    <Compile Include="Model\Time\Day.cs" />
+    <Compile Include="Model\Time\Week.cs" />
     <Compile Include="Model\UserTypes\AdminUser.cs" />
     <Compile Include="Model\UserTypes\CustomerUser.cs" />
     <Compile Include="Model\UserTypes\MechanicUser.cs" />
@@ -133,6 +132,7 @@
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="ViewModel\AdminViewModel.cs" />
     <Compile Include="ViewModel\CreateAccountViewModel.cs" />
+    <Compile Include="ViewModel\CreateEmployeeAccount.cs" />
     <Compile Include="ViewModel\CustomerViewModel.cs" />
     <Compile Include="ViewModel\LogInViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
