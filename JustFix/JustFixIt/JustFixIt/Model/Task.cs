@@ -27,6 +27,8 @@ namespace JustFixIt.Model
         public TaskTypes TaskType { get; set; }
         #endregion
 
+
+
         public void TimeAndPrice()
         {
             switch (TaskType)
