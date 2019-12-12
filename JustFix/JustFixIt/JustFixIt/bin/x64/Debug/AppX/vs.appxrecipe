@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-12-11T11:03:30.316</Modified>
+      <Modified>2019-12-12T09:20:12.251</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\JustFixIt.exe">
       <PackagePath>entrypoint\JustFixIt.exe</PackagePath>
-      <Modified>2019-12-11T11:03:28.840</Modified>
+      <Modified>2019-12-12T09:20:09.682</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\henri\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -118,35 +118,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\JustFixIt.xr.xml">
       <PackagePath>JustFixIt.xr.xml</PackagePath>
-      <Modified>2019-12-11T09:48:43.357</Modified>
+      <Modified>2019-12-12T09:20:09.187</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-12-11T11:03:28.368</Modified>
+      <Modified>2019-12-12T09:20:09.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Admin.xbf">
       <PackagePath>View\Admin.xbf</PackagePath>
-      <Modified>2019-12-11T11:03:28.368</Modified>
+      <Modified>2019-12-12T09:20:09.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\CreateAccount.xbf">
       <PackagePath>View\CreateAccount.xbf</PackagePath>
-      <Modified>2019-12-11T11:03:28.369</Modified>
+      <Modified>2019-12-12T09:20:09.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Customer.xbf">
       <PackagePath>View\Customer.xbf</PackagePath>
-      <Modified>2019-12-11T11:03:28.369</Modified>
+      <Modified>2019-12-12T09:20:09.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\LogIn.xbf">
       <PackagePath>View\LogIn.xbf</PackagePath>
-      <Modified>2019-12-11T11:03:28.369</Modified>
+      <Modified>2019-12-12T09:20:09.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-12-11T11:03:28.370</Modified>
+      <Modified>2019-12-12T09:20:09.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Mechanic.xbf">
       <PackagePath>View\Mechanic.xbf</PackagePath>
-      <Modified>2019-12-11T11:03:28.370</Modified>
+      <Modified>2019-12-12T09:20:09.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\View\Order.xbf">
+      <PackagePath>View\Order.xbf</PackagePath>
+      <Modified>2019-12-12T09:20:09.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -154,11 +158,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-12-11T09:17:50.998</Modified>
+      <Modified>2019-12-12T09:20:10.636</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\henri\Documents\GitHub\JustFix\JustFix\JustFixIt\JustFixIt\bin\x64\Debug\Core\JustFixIt.exe">
       <PackagePath>JustFixIt.exe</PackagePath>
-      <Modified>2019-12-11T11:03:30.295</Modified>
+      <Modified>2019-12-12T09:20:12.210</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

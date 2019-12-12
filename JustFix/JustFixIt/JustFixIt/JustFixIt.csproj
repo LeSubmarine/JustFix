@@ -120,16 +120,18 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\Car.cs" />
+    <Compile Include="Model\Task.cs" />
+    <Compile Include="Model\Timetable.cs" />
+    <Compile Include="Model\TimetableCatalogue.cs" />
     <Compile Include="Model\UserTypes\AdminUser.cs" />
     <Compile Include="Model\UserTypes\CustomerUser.cs" />
     <Compile Include="Model\UserTypes\MechanicUser.cs" />
-    <Compile Include="Model\PersistencyService.cs" />
-    <Compile Include="Model\RelayCommand.cs" />
+    <Compile Include="Persistency\PersistencyService.cs" />
+    <Compile Include="Utility\RelayCommand.cs" />
     <Compile Include="Model\WorkTask.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="ViewModel\AdminViewModel.cs" />
-    <Compile Include="ViewModel\CreateCarViewModel.cs" />
     <Compile Include="ViewModel\CreateAccountViewModel.cs" />
     <Compile Include="ViewModel\CreateEmployeeAccount.cs" />
     <Compile Include="ViewModel\CustomerViewModel.cs" />
@@ -140,13 +142,10 @@
     <Compile Include="View\Admin.xaml.cs">
       <DependentUpon>Admin.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\Admin\BlankPage1.xaml.cs">
-      <DependentUpon>CreateMechanic.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\Customer\CreateAccount.xaml.cs">
+    <Compile Include="View\CreateAccount.xaml.cs">
       <DependentUpon>CreateAccount.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\Customer\Customer.xaml.cs">
+    <Compile Include="View\Customer.xaml.cs">
       <DependentUpon>Customer.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\LogIn.xaml.cs">
@@ -155,7 +154,7 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\Mechanic\Mechanic.xaml.cs">
+    <Compile Include="View\Mechanic.xaml.cs">
       <DependentUpon>Mechanic.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -169,8 +168,6 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\Logo wide.png" />
-    <Content Include="Assets\Logo.png" />
     <Content Include="DesignNotes\78055709_555067945055773_2867606121437200384_n.jpg" />
     <Content Include="DesignNotes\78244538_433874070878883_4335748581706170368_n.jpg" />
     <Content Include="DesignNotes\78247887_2748896485160661_6457030996465287168_n.jpg" />
@@ -192,19 +189,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="View\Admin\Admin.xaml">
+    <Page Include="View\Admin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\Admin\CreateMechanic.xaml">
+    <Page Include="View\CreateAccount.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\Customer\CreateAccount.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\Customer\Customer.xaml">
+    <Page Include="View\Customer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -216,7 +209,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\Mechanic\Mechanic.xaml">
+    <Page Include="View\Mechanic.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
