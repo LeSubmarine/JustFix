@@ -1,7 +1,5 @@
 WinMetadata\Windows.winmd
 Assets\LockScreenLogo.scale-200.png
-Assets\Logo wide.png
-Assets\Logo.png
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
 Assets\Square44x44Logo.scale-200.png
@@ -11,11 +9,11 @@ Assets\Wide310x150Logo.scale-200.png
 App.xbf
 JustFixIt.xr.xml
 MainPage.xbf
-View\Admin\Admin.xbf
-View\Customer\CreateAccount.xbf
-View\Customer\Customer.xbf
+View\Admin.xbf
+View\CreateAccount.xbf
+View\Customer.xbf
 View\LogIn.xbf
-View\Mechanic\Mechanic.xbf
+View\Mechanic.xbf
 View\Order.xbf
 DesignNotes\78055709_555067945055773_2867606121437200384_n.jpg
 DesignNotes\78244538_433874070878883_4335748581706170368_n.jpg
