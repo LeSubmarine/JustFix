@@ -11,11 +11,13 @@ namespace JustFixIt.ViewModel
 {
     class CustomerViewModel
     {
-        //Skal kunne lave en ordrer af WorkTask/Task,
-        //Skal kunne adde sin ordrer til en dag i Week.WeekTable.Days
-        //Skal kunne se Week.WeekTable
-        //Skal kunne se hvorvidt hver element af Week.WeekTable.Days er ledig
+        public ICommand BackCommand { get; set; }
         public CustomerViewModel()
+        {
+            BackCommand = new RelayCommand(Back);
+        }
+
+        public void Back()
         {
             
         }

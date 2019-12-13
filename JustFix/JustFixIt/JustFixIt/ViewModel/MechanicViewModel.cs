@@ -8,11 +8,5 @@ namespace JustFixIt.ViewModel
 {
     class MechanicViewModel
     {
-        //Skal kunne se Week.Weektable
-        //Skal kunne se Alle elementer i Week.Weektable.Days
-        public MechanicViewModel()
-        {
-            
-        }
     }
 }
