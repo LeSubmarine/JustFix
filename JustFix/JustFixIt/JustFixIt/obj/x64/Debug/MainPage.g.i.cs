@@ -15,9 +15,9 @@ namespace JustFixIt
 
 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
-        private global::Windows.UI.Xaml.Controls.Grid MainGrid; 
+        private global::Windows.UI.Xaml.Controls.Grid MainGrid;
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
-        private global::Windows.UI.Xaml.Controls.Frame TheFrame; 
+        private global::Windows.UI.Xaml.Controls.Frame TheFrame;
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
         private bool _contentLoaded;
 
@@ -41,5 +41,3 @@ namespace JustFixIt
 
     }
 }
-
-
