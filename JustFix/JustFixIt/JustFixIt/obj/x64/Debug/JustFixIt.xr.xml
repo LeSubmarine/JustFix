@@ -44,6 +44,7 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
+      <RootProperty Name="Foreground" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="UpdateSourceTrigger" />
@@ -53,6 +54,8 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Content" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Foreground" />
       <RootProperty Name="Command" />
       <RootEvent Name="Click" />
     </RootType>
@@ -69,6 +72,7 @@
       <RootProperty Name="Children" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="BorderBrush" />
       <RootProperty Name="Width" />
       <RootProperty Name="Text" />
       <RootProperty Name="Margin" />
@@ -76,6 +80,7 @@
       <RootProperty Name="TextAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.PasswordBox">
+      <RootProperty Name="BorderBrush" />
       <RootProperty Name="Width" />
       <RootProperty Name="Password" />
       <RootProperty Name="Margin" />

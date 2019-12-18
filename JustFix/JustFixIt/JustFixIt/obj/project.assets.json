@@ -8255,24 +8255,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Krist\\.nuget\\packages\\": {},
+    "C:\\Users\\tobia\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Krist\\Skrivebord\\Zealand\\FuckGitHub\\JustFix\\JustFix\\JustFixIt\\JustFixIt\\JustFixIt.csproj",
+      "projectUniqueName": "C:\\Users\\tobia\\Desktop\\THE REPO STFU NIBBAS\\Anden version JusstFixIt\\JustFix\\JustFixIt\\JustFixIt\\JustFixIt.csproj",
       "projectName": "JustFixIt",
-      "projectPath": "C:\\Users\\Krist\\Skrivebord\\Zealand\\FuckGitHub\\JustFix\\JustFix\\JustFixIt\\JustFixIt\\JustFixIt.csproj",
-      "packagesPath": "C:\\Users\\Krist\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Krist\\Skrivebord\\Zealand\\FuckGitHub\\JustFix\\JustFix\\JustFixIt\\JustFixIt\\obj\\",
+      "projectPath": "C:\\Users\\tobia\\Desktop\\THE REPO STFU NIBBAS\\Anden version JusstFixIt\\JustFix\\JustFixIt\\JustFixIt\\JustFixIt.csproj",
+      "packagesPath": "C:\\Users\\tobia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tobia\\Desktop\\THE REPO STFU NIBBAS\\Anden version JusstFixIt\\JustFix\\JustFixIt\\JustFixIt\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Krist\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tobia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -32,15 +32,20 @@
                 Width="140"
                 Margin="2"
                 HorizontalAlignment="Stretch"
+                BorderBrush="#203a61"
                 Text="{Binding LogInName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                 TextAlignment="Center" />
         </Viewbox>
-        <Viewbox Grid.Row="1" Grid.Column="1">
+        <Viewbox
+            Grid.Row="1"
+            Grid.Column="0"
+            Grid.ColumnSpan="2">
             <PasswordBox
                 x:Name="Password"
                 Width="140"
                 Margin="2"
-                HorizontalAlignment="Stretch"/>
+                HorizontalAlignment="Stretch"
+                BorderBrush="#203a61" />
         </Viewbox>
         <Viewbox Grid.Row="2" Grid.ColumnSpan="3">
             <StackPanel Padding="5" Orientation="Horizontal">
@@ -48,14 +53,18 @@
                     x:Name="NewAccButton"
                     Width="110"
                     Margin="10,0,10,0"
+                    Background="#203a61"
                     Click="NewAccButton_Click"
-                    Content="New Account" />
+                    Content="New Account"
+                    Foreground="White" />
                 <Button
                     x:Name="LogInButton"
                     Width="110"
                     Margin="10,0,10,0"
+                    Background="#203a61"
                     Click="LogInButton_Click"
-                    Content="Log in" />
+                    Content="Log in"
+                    Foreground="White" />
             </StackPanel>
         </Viewbox>
 

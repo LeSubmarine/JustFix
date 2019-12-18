@@ -31,61 +31,63 @@
             Grid.Row="0"
             Grid.Column="1"
             HorizontalAlignment="Left">
-            <TextBlock Text="Name:" />
+            <TextBlock Text="Name:"
+                       Foreground="#203a61"/>
         </Viewbox>
         <Viewbox
             Grid.Row="1"
             Grid.Column="1"
             HorizontalAlignment="Left">
-            <TextBlock Text="Login:" />
+            <TextBlock Foreground="#203a61" Text="Login:"
+                       />
         </Viewbox>
         <Viewbox
             Grid.Row="2"
             Grid.Column="1"
             HorizontalAlignment="Left">
-            <TextBlock Text="Password:" />
+            <TextBlock Foreground="#203a61" Text="Password:" />
         </Viewbox>
         <Viewbox
             Grid.Row="3"
             Grid.Column="1"
             HorizontalAlignment="Left">
-            <TextBlock Text="Email:" />
+            <TextBlock Foreground="#203a61" Text="Email:" />
         </Viewbox>
         <Viewbox
             Grid.Row="4"
             Grid.Column="1"
             HorizontalAlignment="Left">
-            <TextBlock Text="Number:" />
+            <TextBlock Foreground="#203a61" Text="Number:" />
         </Viewbox>
         <Viewbox
             Grid.Row="0"
             Grid.Column="2"
             HorizontalAlignment="Left">
-            <TextBox Width="200" Text="{Binding Name, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+            <TextBox BorderBrush="#203a61" Width="200" Text="{Binding Name, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
         </Viewbox>
         <Viewbox
             Grid.Row="1"
             Grid.Column="2"
             HorizontalAlignment="Left">
-            <TextBox Width="200" Text="{Binding Login, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+            <TextBox BorderBrush="#203a61" Width="200" Text="{Binding Login, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
         </Viewbox>
         <Viewbox
             Grid.Row="2"
             Grid.Column="2"
             HorizontalAlignment="Left">
-            <PasswordBox Width="200" Password="{Binding Password, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+            <PasswordBox BorderBrush="#203a61" Width="200" Password="{Binding Password, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
         </Viewbox>
         <Viewbox
             Grid.Row="3"
             Grid.Column="2"
             HorizontalAlignment="Left">
-            <TextBox Width="200" Text="{Binding Email, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+            <TextBox BorderBrush="#203a61" Width="200" Text="{Binding Email, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
         </Viewbox>
         <Viewbox
             Grid.Row="4"
             Grid.Column="2"
             HorizontalAlignment="Left">
-            <TextBox Width="200" Text="{Binding Number, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+            <TextBox BorderBrush="#203a61" Width="200" Text="{Binding Number, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
         </Viewbox>
         <Viewbox Grid.Row="6" Grid.ColumnSpan="4">
             <StackPanel Padding="10" Orientation="Horizontal">
@@ -94,13 +96,17 @@
                     Width="120"
                     Margin="0,0,10,0"
                     Click="Back_Click"
-                    Content="Back" />
+                    Content="Back" 
+                    Background="#203a61"
+                    Foreground="White"/>
                 <Button
                     x:Name="CreateAcc"
                     Width="120"
                     Margin="10,0,0,0"
                     Command="{Binding CreateAccountCommand}"
-                    Content="Create Account" />
+                    Content="Create Account" 
+                    Background="#203a61"
+                    Foreground="White"/>
             </StackPanel>
         </Viewbox>
     </Grid>
